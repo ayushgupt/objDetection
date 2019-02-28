@@ -1,0 +1,82 @@
+(base) satbigvm@satbig:~/cleanedDataset/objDetection/trainingfolder$ python3 eval.py --checkpoint_dir=./models/train/ --eval_dir=./legacyEval/ --pipeline_config_path=./ssd_mobilenet_v1_coco.config 
+WARNING:tensorflow:From /home/satbigvm/anaconda3/lib/python3.6/site-packages/tensorflow/python/platform/app.py:125: main (from __main__) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use object_detection/model_main.py.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:Starting evaluation at 2019-02-28-16:14:37
+2019-02-28 16:14:37.605859: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+INFO:tensorflow:Restoring parameters from ./models/train/model.ckpt-1000
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-0.
+WARNING:root:image b'cow_100.jpg' does not have groundtruth difficult flag specified
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-1.
+INFO:tensorflow:Detection visualizations written to summary with tag image-1.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-2.
+INFO:tensorflow:Detection visualizations written to summary with tag image-2.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-3.
+INFO:tensorflow:Detection visualizations written to summary with tag image-3.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-4.
+INFO:tensorflow:Detection visualizations written to summary with tag image-4.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-5.
+INFO:tensorflow:Detection visualizations written to summary with tag image-5.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-6.
+INFO:tensorflow:Detection visualizations written to summary with tag image-6.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-7.
+INFO:tensorflow:Detection visualizations written to summary with tag image-7.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-8.
+INFO:tensorflow:Detection visualizations written to summary with tag image-8.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Creating detection visualizations.
+INFO:tensorflow:Detection visualizations written to summary with tag image-9.
+INFO:tensorflow:Detection visualizations written to summary with tag image-9.
+INFO:tensorflow:Running eval ops batch 100/500
+INFO:tensorflow:Running eval ops batch 100/500
+INFO:tensorflow:Running eval ops batch 200/500
+INFO:tensorflow:Running eval ops batch 200/500
+INFO:tensorflow:Running eval ops batch 300/500
+INFO:tensorflow:Running eval ops batch 300/500
+INFO:tensorflow:Running eval ops batch 400/500
+INFO:tensorflow:Running eval ops batch 400/500
+INFO:tensorflow:Running eval ops batch 500/500
+INFO:tensorflow:Running eval ops batch 500/500
+INFO:tensorflow:Running eval batches done.
+INFO:tensorflow:Running eval batches done.
+INFO:tensorflow:# success: 500
+INFO:tensorflow:# success: 500
+INFO:tensorflow:# skipped: 0
+INFO:tensorflow:# skipped: 0
+INFO:tensorflow:Writing metrics to tf summary.
+INFO:tensorflow:Writing metrics to tf summary.
+INFO:tensorflow:Losses/Loss/classification_loss: 3.895089
+INFO:tensorflow:Losses/Loss/classification_loss: 3.895089
+INFO:tensorflow:Losses/Loss/localization_loss: 0.866701
+INFO:tensorflow:Losses/Loss/localization_loss: 0.866701
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/b'cow': 0.779907
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/b'cow': 0.779907
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/b'dog': 0.966927
+INFO:tensorflow:PascalBoxes_PerformanceByCategory/AP@0.5IOU/b'dog': 0.966927
+INFO:tensorflow:PascalBoxes_Precision/mAP@0.5IOU: 0.873417
+INFO:tensorflow:PascalBoxes_Precision/mAP@0.5IOU: 0.873417
+INFO:tensorflow:Metrics written to tf summary.
+INFO:tensorflow:Metrics written to tf summary.
