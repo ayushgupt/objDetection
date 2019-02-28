@@ -1,0 +1,2511 @@
+nohup: ignoring input
+WARNING:tensorflow:From /home/satbigvm/anaconda3/lib/python3.6/site-packages/tensorflow/python/platform/app.py:125: main (from __main__) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use object_detection/model_main.py.
+WARNING:tensorflow:From /home/satbigvm/cleanedDataset/objDetection/models/research/object_detection/legacy/trainer.py:266: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+WARNING:tensorflow:num_readers has been reduced to 1 to match input file shards.
+WARNING:tensorflow:From /home/satbigvm/cleanedDataset/objDetection/models/research/object_detection/core/preprocessor.py:1218: calling squeeze (from tensorflow.python.ops.array_ops) with squeeze_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the `axis` argument instead
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_0/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/depthwise_weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/depthwise_weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/depthwise_weights/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/BatchNorm/beta/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/BatchNorm/beta/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/BatchNorm/beta/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/BatchNorm/gamma/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/BatchNorm/gamma/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/BatchNorm/gamma/RMSProp_1] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/weights/ExponentialMovingAverage] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/weights/RMSProp] is not available in checkpoint
+WARNING:root:Variable [FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/weights/RMSProp_1] is not available in checkpoint
+WARNING:tensorflow:From /home/satbigvm/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/slim/python/slim/learning.py:737: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+WARNING:tensorflow:From /home/satbigvm/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/slim/python/slim/learning.py:737: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2019-02-28 03:22:08.056771: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+INFO:tensorflow:Restoring parameters from ./models/train/model.ckpt-11
+INFO:tensorflow:Restoring parameters from ./models/train/model.ckpt-11
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 11.
+INFO:tensorflow:Recording summary at step 11.
+INFO:tensorflow:global step 12: loss = 9.6024 (27.063 sec/step)
+INFO:tensorflow:global step 12: loss = 9.6024 (27.063 sec/step)
+INFO:tensorflow:global step 13: loss = 9.0635 (8.309 sec/step)
+INFO:tensorflow:global step 13: loss = 9.0635 (8.309 sec/step)
+INFO:tensorflow:global step 14: loss = 8.7963 (8.305 sec/step)
+INFO:tensorflow:global step 14: loss = 8.7963 (8.305 sec/step)
+INFO:tensorflow:global step 15: loss = 8.5271 (7.853 sec/step)
+INFO:tensorflow:global step 15: loss = 8.5271 (7.853 sec/step)
+INFO:tensorflow:global step 16: loss = 8.4724 (7.841 sec/step)
+INFO:tensorflow:global step 16: loss = 8.4724 (7.841 sec/step)
+INFO:tensorflow:global step 17: loss = 8.2527 (8.099 sec/step)
+INFO:tensorflow:global step 17: loss = 8.2527 (8.099 sec/step)
+INFO:tensorflow:global step 18: loss = 7.8876 (7.927 sec/step)
+INFO:tensorflow:global step 18: loss = 7.8876 (7.927 sec/step)
+INFO:tensorflow:global step 19: loss = 7.6141 (7.860 sec/step)
+INFO:tensorflow:global step 19: loss = 7.6141 (7.860 sec/step)
+INFO:tensorflow:global step 20: loss = 7.9261 (8.151 sec/step)
+INFO:tensorflow:global step 20: loss = 7.9261 (8.151 sec/step)
+INFO:tensorflow:global step 21: loss = 8.0121 (8.076 sec/step)
+INFO:tensorflow:global step 21: loss = 8.0121 (8.076 sec/step)
+INFO:tensorflow:global step 22: loss = 7.5079 (8.217 sec/step)
+INFO:tensorflow:global step 22: loss = 7.5079 (8.217 sec/step)
+INFO:tensorflow:global step 23: loss = 7.2984 (8.055 sec/step)
+INFO:tensorflow:global step 23: loss = 7.2984 (8.055 sec/step)
+INFO:tensorflow:Recording summary at step 23.
+INFO:tensorflow:Recording summary at step 23.
+INFO:tensorflow:global step 24: loss = 7.3117 (9.168 sec/step)
+INFO:tensorflow:global step 24: loss = 7.3117 (9.168 sec/step)
+INFO:tensorflow:global_step/sec: 0.110926
+INFO:tensorflow:global_step/sec: 0.110926
+INFO:tensorflow:global step 25: loss = 6.7231 (7.930 sec/step)
+INFO:tensorflow:global step 25: loss = 6.7231 (7.930 sec/step)
+INFO:tensorflow:global step 26: loss = 7.3435 (8.005 sec/step)
+INFO:tensorflow:global step 26: loss = 7.3435 (8.005 sec/step)
+INFO:tensorflow:global step 27: loss = 7.5696 (7.921 sec/step)
+INFO:tensorflow:global step 27: loss = 7.5696 (7.921 sec/step)
+INFO:tensorflow:global step 28: loss = 6.8976 (7.985 sec/step)
+INFO:tensorflow:global step 28: loss = 6.8976 (7.985 sec/step)
+INFO:tensorflow:global step 29: loss = 6.6697 (8.134 sec/step)
+INFO:tensorflow:global step 29: loss = 6.6697 (8.134 sec/step)
+INFO:tensorflow:global step 30: loss = 7.4274 (7.793 sec/step)
+INFO:tensorflow:global step 30: loss = 7.4274 (7.793 sec/step)
+INFO:tensorflow:global step 31: loss = 6.5947 (7.984 sec/step)
+INFO:tensorflow:global step 31: loss = 6.5947 (7.984 sec/step)
+INFO:tensorflow:global step 32: loss = 6.2851 (7.962 sec/step)
+INFO:tensorflow:global step 32: loss = 6.2851 (7.962 sec/step)
+INFO:tensorflow:global step 33: loss = 6.9397 (7.982 sec/step)
+INFO:tensorflow:global step 33: loss = 6.9397 (7.982 sec/step)
+INFO:tensorflow:global step 34: loss = 7.0737 (7.804 sec/step)
+INFO:tensorflow:global step 34: loss = 7.0737 (7.804 sec/step)
+INFO:tensorflow:global step 35: loss = 6.2898 (7.938 sec/step)
+INFO:tensorflow:global step 35: loss = 6.2898 (7.938 sec/step)
+INFO:tensorflow:global step 36: loss = 6.5553 (7.999 sec/step)
+INFO:tensorflow:global step 36: loss = 6.5553 (7.999 sec/step)
+INFO:tensorflow:global step 37: loss = 6.8582 (8.145 sec/step)
+INFO:tensorflow:global step 37: loss = 6.8582 (8.145 sec/step)
+INFO:tensorflow:global step 38: loss = 6.8983 (7.850 sec/step)
+INFO:tensorflow:global step 38: loss = 6.8983 (7.850 sec/step)
+INFO:tensorflow:Recording summary at step 38.
+INFO:tensorflow:Recording summary at step 38.
+INFO:tensorflow:global_step/sec: 0.116667
+INFO:tensorflow:global_step/sec: 0.116667
+INFO:tensorflow:global step 39: loss = 5.8142 (9.270 sec/step)
+INFO:tensorflow:global step 39: loss = 5.8142 (9.270 sec/step)
+INFO:tensorflow:global step 40: loss = 6.3038 (8.022 sec/step)
+INFO:tensorflow:global step 40: loss = 6.3038 (8.022 sec/step)
+INFO:tensorflow:global step 41: loss = 6.2463 (7.820 sec/step)
+INFO:tensorflow:global step 41: loss = 6.2463 (7.820 sec/step)
+INFO:tensorflow:global step 42: loss = 5.6096 (8.052 sec/step)
+INFO:tensorflow:global step 42: loss = 5.6096 (8.052 sec/step)
+INFO:tensorflow:global step 43: loss = 5.5504 (7.829 sec/step)
+INFO:tensorflow:global step 43: loss = 5.5504 (7.829 sec/step)
+INFO:tensorflow:global step 44: loss = 5.6978 (8.058 sec/step)
+INFO:tensorflow:global step 44: loss = 5.6978 (8.058 sec/step)
+INFO:tensorflow:global step 45: loss = 6.2913 (8.271 sec/step)
+INFO:tensorflow:global step 45: loss = 6.2913 (8.271 sec/step)
+INFO:tensorflow:global step 46: loss = 5.7289 (7.787 sec/step)
+INFO:tensorflow:global step 46: loss = 5.7289 (7.787 sec/step)
+INFO:tensorflow:global step 47: loss = 6.2390 (8.375 sec/step)
+INFO:tensorflow:global step 47: loss = 6.2390 (8.375 sec/step)
+INFO:tensorflow:global step 48: loss = 6.0719 (8.259 sec/step)
+INFO:tensorflow:global step 48: loss = 6.0719 (8.259 sec/step)
+INFO:tensorflow:global step 49: loss = 5.9151 (7.918 sec/step)
+INFO:tensorflow:global step 49: loss = 5.9151 (7.918 sec/step)
+INFO:tensorflow:global step 50: loss = 5.0207 (8.324 sec/step)
+INFO:tensorflow:global step 50: loss = 5.0207 (8.324 sec/step)
+INFO:tensorflow:global step 51: loss = 5.8253 (7.942 sec/step)
+INFO:tensorflow:global step 51: loss = 5.8253 (7.942 sec/step)
+INFO:tensorflow:global step 52: loss = 5.8342 (7.779 sec/step)
+INFO:tensorflow:global step 52: loss = 5.8342 (7.779 sec/step)
+INFO:tensorflow:global step 53: loss = 5.8953 (7.735 sec/step)
+INFO:tensorflow:global step 53: loss = 5.8953 (7.735 sec/step)
+INFO:tensorflow:Recording summary at step 53.
+INFO:tensorflow:Recording summary at step 53.
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global step 54: loss = 5.7967 (9.379 sec/step)
+INFO:tensorflow:global step 54: loss = 5.7967 (9.379 sec/step)
+INFO:tensorflow:global step 55: loss = 4.9795 (7.980 sec/step)
+INFO:tensorflow:global step 55: loss = 4.9795 (7.980 sec/step)
+INFO:tensorflow:global step 56: loss = 5.8783 (7.949 sec/step)
+INFO:tensorflow:global step 56: loss = 5.8783 (7.949 sec/step)
+INFO:tensorflow:global step 57: loss = 4.7786 (7.776 sec/step)
+INFO:tensorflow:global step 57: loss = 4.7786 (7.776 sec/step)
+INFO:tensorflow:global step 58: loss = 5.7564 (8.189 sec/step)
+INFO:tensorflow:global step 58: loss = 5.7564 (8.189 sec/step)
+INFO:tensorflow:global step 59: loss = 5.0877 (8.066 sec/step)
+INFO:tensorflow:global step 59: loss = 5.0877 (8.066 sec/step)
+INFO:tensorflow:global step 60: loss = 5.9295 (8.032 sec/step)
+INFO:tensorflow:global step 60: loss = 5.9295 (8.032 sec/step)
+INFO:tensorflow:global step 61: loss = 5.4117 (8.057 sec/step)
+INFO:tensorflow:global step 61: loss = 5.4117 (8.057 sec/step)
+INFO:tensorflow:global step 62: loss = 5.6835 (8.269 sec/step)
+INFO:tensorflow:global step 62: loss = 5.6835 (8.269 sec/step)
+INFO:tensorflow:global step 63: loss = 6.0964 (8.191 sec/step)
+INFO:tensorflow:global step 63: loss = 6.0964 (8.191 sec/step)
+INFO:tensorflow:global step 64: loss = 5.2342 (8.327 sec/step)
+INFO:tensorflow:global step 64: loss = 5.2342 (8.327 sec/step)
+INFO:tensorflow:global step 65: loss = 5.4127 (7.868 sec/step)
+INFO:tensorflow:global step 65: loss = 5.4127 (7.868 sec/step)
+INFO:tensorflow:global step 66: loss = 6.2447 (7.939 sec/step)
+INFO:tensorflow:global step 66: loss = 6.2447 (7.939 sec/step)
+INFO:tensorflow:global step 67: loss = 5.8497 (8.140 sec/step)
+INFO:tensorflow:global step 67: loss = 5.8497 (8.140 sec/step)
+INFO:tensorflow:global step 68: loss = 5.1618 (8.386 sec/step)
+INFO:tensorflow:global step 68: loss = 5.1618 (8.386 sec/step)
+INFO:tensorflow:Recording summary at step 68.
+INFO:tensorflow:Recording summary at step 68.
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global step 69: loss = 5.5884 (9.268 sec/step)
+INFO:tensorflow:global step 69: loss = 5.5884 (9.268 sec/step)
+INFO:tensorflow:global step 70: loss = 4.7935 (8.054 sec/step)
+INFO:tensorflow:global step 70: loss = 4.7935 (8.054 sec/step)
+INFO:tensorflow:global step 71: loss = 4.9613 (7.903 sec/step)
+INFO:tensorflow:global step 71: loss = 4.9613 (7.903 sec/step)
+INFO:tensorflow:global step 72: loss = 4.3472 (7.840 sec/step)
+INFO:tensorflow:global step 72: loss = 4.3472 (7.840 sec/step)
+INFO:tensorflow:global step 73: loss = 6.6093 (8.000 sec/step)
+INFO:tensorflow:global step 73: loss = 6.6093 (8.000 sec/step)
+INFO:tensorflow:global step 74: loss = 4.9010 (7.767 sec/step)
+INFO:tensorflow:global step 74: loss = 4.9010 (7.767 sec/step)
+INFO:tensorflow:global step 75: loss = 4.9465 (7.801 sec/step)
+INFO:tensorflow:global step 75: loss = 4.9465 (7.801 sec/step)
+INFO:tensorflow:global step 76: loss = 5.0607 (8.203 sec/step)
+INFO:tensorflow:global step 76: loss = 5.0607 (8.203 sec/step)
+INFO:tensorflow:global step 77: loss = 5.3608 (8.235 sec/step)
+INFO:tensorflow:global step 77: loss = 5.3608 (8.235 sec/step)
+INFO:tensorflow:global step 78: loss = 4.4775 (7.800 sec/step)
+INFO:tensorflow:global step 78: loss = 4.4775 (7.800 sec/step)
+INFO:tensorflow:global step 79: loss = 5.2486 (8.017 sec/step)
+INFO:tensorflow:global step 79: loss = 5.2486 (8.017 sec/step)
+INFO:tensorflow:global step 80: loss = 4.4923 (7.838 sec/step)
+INFO:tensorflow:global step 80: loss = 4.4923 (7.838 sec/step)
+INFO:tensorflow:global step 81: loss = 4.2074 (8.314 sec/step)
+INFO:tensorflow:global step 81: loss = 4.2074 (8.314 sec/step)
+INFO:tensorflow:global step 82: loss = 4.6862 (8.088 sec/step)
+INFO:tensorflow:global step 82: loss = 4.6862 (8.088 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 82.
+INFO:tensorflow:Recording summary at step 82.
+INFO:tensorflow:global step 83: loss = 4.8426 (9.038 sec/step)
+INFO:tensorflow:global step 83: loss = 4.8426 (9.038 sec/step)
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global step 84: loss = 4.1046 (7.870 sec/step)
+INFO:tensorflow:global step 84: loss = 4.1046 (7.870 sec/step)
+INFO:tensorflow:global step 85: loss = 5.3038 (7.971 sec/step)
+INFO:tensorflow:global step 85: loss = 5.3038 (7.971 sec/step)
+INFO:tensorflow:global step 86: loss = 4.4749 (7.909 sec/step)
+INFO:tensorflow:global step 86: loss = 4.4749 (7.909 sec/step)
+INFO:tensorflow:global step 87: loss = 5.4908 (7.877 sec/step)
+INFO:tensorflow:global step 87: loss = 5.4908 (7.877 sec/step)
+INFO:tensorflow:global step 88: loss = 3.5659 (7.781 sec/step)
+INFO:tensorflow:global step 88: loss = 3.5659 (7.781 sec/step)
+INFO:tensorflow:global step 89: loss = 4.9717 (7.950 sec/step)
+INFO:tensorflow:global step 89: loss = 4.9717 (7.950 sec/step)
+INFO:tensorflow:global step 90: loss = 4.4773 (7.802 sec/step)
+INFO:tensorflow:global step 90: loss = 4.4773 (7.802 sec/step)
+INFO:tensorflow:global step 91: loss = 4.3277 (7.826 sec/step)
+INFO:tensorflow:global step 91: loss = 4.3277 (7.826 sec/step)
+INFO:tensorflow:global step 92: loss = 4.0952 (8.053 sec/step)
+INFO:tensorflow:global step 92: loss = 4.0952 (8.053 sec/step)
+INFO:tensorflow:global step 93: loss = 5.5657 (7.837 sec/step)
+INFO:tensorflow:global step 93: loss = 5.5657 (7.837 sec/step)
+INFO:tensorflow:global step 94: loss = 4.4208 (7.976 sec/step)
+INFO:tensorflow:global step 94: loss = 4.4208 (7.976 sec/step)
+INFO:tensorflow:global step 95: loss = 4.1321 (8.047 sec/step)
+INFO:tensorflow:global step 95: loss = 4.1321 (8.047 sec/step)
+INFO:tensorflow:global step 96: loss = 5.0357 (8.157 sec/step)
+INFO:tensorflow:global step 96: loss = 5.0357 (8.157 sec/step)
+INFO:tensorflow:global step 97: loss = 4.6953 (7.935 sec/step)
+INFO:tensorflow:global step 97: loss = 4.6953 (7.935 sec/step)
+INFO:tensorflow:Recording summary at step 97.
+INFO:tensorflow:Recording summary at step 97.
+INFO:tensorflow:global step 98: loss = 4.2598 (8.844 sec/step)
+INFO:tensorflow:global step 98: loss = 4.2598 (8.844 sec/step)
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global step 99: loss = 4.8338 (8.016 sec/step)
+INFO:tensorflow:global step 99: loss = 4.8338 (8.016 sec/step)
+INFO:tensorflow:global step 100: loss = 4.3392 (7.726 sec/step)
+INFO:tensorflow:global step 100: loss = 4.3392 (7.726 sec/step)
+INFO:tensorflow:global step 101: loss = 4.0607 (7.695 sec/step)
+INFO:tensorflow:global step 101: loss = 4.0607 (7.695 sec/step)
+INFO:tensorflow:global step 102: loss = 4.2021 (7.822 sec/step)
+INFO:tensorflow:global step 102: loss = 4.2021 (7.822 sec/step)
+INFO:tensorflow:global step 103: loss = 3.7941 (7.936 sec/step)
+INFO:tensorflow:global step 103: loss = 3.7941 (7.936 sec/step)
+INFO:tensorflow:global step 104: loss = 4.0758 (7.992 sec/step)
+INFO:tensorflow:global step 104: loss = 4.0758 (7.992 sec/step)
+INFO:tensorflow:global step 105: loss = 3.9433 (7.883 sec/step)
+INFO:tensorflow:global step 105: loss = 3.9433 (7.883 sec/step)
+INFO:tensorflow:global step 106: loss = 4.4568 (8.160 sec/step)
+INFO:tensorflow:global step 106: loss = 4.4568 (8.160 sec/step)
+INFO:tensorflow:global step 107: loss = 4.2560 (8.123 sec/step)
+INFO:tensorflow:global step 107: loss = 4.2560 (8.123 sec/step)
+INFO:tensorflow:global step 108: loss = 4.7969 (8.157 sec/step)
+INFO:tensorflow:global step 108: loss = 4.7969 (8.157 sec/step)
+INFO:tensorflow:global step 109: loss = 4.2976 (8.053 sec/step)
+INFO:tensorflow:global step 109: loss = 4.2976 (8.053 sec/step)
+INFO:tensorflow:global step 110: loss = 5.2154 (8.228 sec/step)
+INFO:tensorflow:global step 110: loss = 5.2154 (8.228 sec/step)
+INFO:tensorflow:global step 111: loss = 3.7426 (8.167 sec/step)
+INFO:tensorflow:global step 111: loss = 3.7426 (8.167 sec/step)
+INFO:tensorflow:global step 112: loss = 4.7286 (8.004 sec/step)
+INFO:tensorflow:global step 112: loss = 4.7286 (8.004 sec/step)
+INFO:tensorflow:Recording summary at step 112.
+INFO:tensorflow:Recording summary at step 112.
+INFO:tensorflow:global step 113: loss = 5.0005 (9.258 sec/step)
+INFO:tensorflow:global step 113: loss = 5.0005 (9.258 sec/step)
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global_step/sec: 0.125
+INFO:tensorflow:global step 114: loss = 4.4867 (8.034 sec/step)
+INFO:tensorflow:global step 114: loss = 4.4867 (8.034 sec/step)
+INFO:tensorflow:global step 115: loss = 4.3537 (8.013 sec/step)
+INFO:tensorflow:global step 115: loss = 4.3537 (8.013 sec/step)
+INFO:tensorflow:global step 116: loss = 4.2950 (8.145 sec/step)
+INFO:tensorflow:global step 116: loss = 4.2950 (8.145 sec/step)
+INFO:tensorflow:global step 117: loss = 4.4322 (8.082 sec/step)
+INFO:tensorflow:global step 117: loss = 4.4322 (8.082 sec/step)
+INFO:tensorflow:global step 118: loss = 4.6068 (8.271 sec/step)
+INFO:tensorflow:global step 118: loss = 4.6068 (8.271 sec/step)
+INFO:tensorflow:global step 119: loss = 5.2361 (7.751 sec/step)
+INFO:tensorflow:global step 119: loss = 5.2361 (7.751 sec/step)
+INFO:tensorflow:global step 120: loss = 4.8789 (8.193 sec/step)
+INFO:tensorflow:global step 120: loss = 4.8789 (8.193 sec/step)
+INFO:tensorflow:global step 121: loss = 4.3752 (8.217 sec/step)
+INFO:tensorflow:global step 121: loss = 4.3752 (8.217 sec/step)
+INFO:tensorflow:global step 122: loss = 4.4598 (7.934 sec/step)
+INFO:tensorflow:global step 122: loss = 4.4598 (7.934 sec/step)
+INFO:tensorflow:global step 123: loss = 5.2737 (8.113 sec/step)
+INFO:tensorflow:global step 123: loss = 5.2737 (8.113 sec/step)
+INFO:tensorflow:global step 124: loss = 4.4696 (7.835 sec/step)
+INFO:tensorflow:global step 124: loss = 4.4696 (7.835 sec/step)
+INFO:tensorflow:global step 125: loss = 4.8273 (8.021 sec/step)
+INFO:tensorflow:global step 125: loss = 4.8273 (8.021 sec/step)
+INFO:tensorflow:global step 126: loss = 5.2859 (8.159 sec/step)
+INFO:tensorflow:global step 126: loss = 5.2859 (8.159 sec/step)
+INFO:tensorflow:global step 127: loss = 3.9818 (7.815 sec/step)
+INFO:tensorflow:global step 127: loss = 3.9818 (7.815 sec/step)
+INFO:tensorflow:Recording summary at step 127.
+INFO:tensorflow:Recording summary at step 127.
+INFO:tensorflow:global step 128: loss = 5.4174 (9.056 sec/step)
+INFO:tensorflow:global step 128: loss = 5.4174 (9.056 sec/step)
+INFO:tensorflow:global_step/sec: 0.124999
+INFO:tensorflow:global_step/sec: 0.124999
+INFO:tensorflow:global step 129: loss = 4.7359 (8.251 sec/step)
+INFO:tensorflow:global step 129: loss = 4.7359 (8.251 sec/step)
+INFO:tensorflow:global step 130: loss = 4.6580 (7.873 sec/step)
+INFO:tensorflow:global step 130: loss = 4.6580 (7.873 sec/step)
+INFO:tensorflow:global step 131: loss = 3.8323 (8.051 sec/step)
+INFO:tensorflow:global step 131: loss = 3.8323 (8.051 sec/step)
+INFO:tensorflow:global step 132: loss = 4.5854 (8.018 sec/step)
+INFO:tensorflow:global step 132: loss = 4.5854 (8.018 sec/step)
+INFO:tensorflow:global step 133: loss = 4.0137 (8.032 sec/step)
+INFO:tensorflow:global step 133: loss = 4.0137 (8.032 sec/step)
+INFO:tensorflow:global step 134: loss = 4.0874 (8.085 sec/step)
+INFO:tensorflow:global step 134: loss = 4.0874 (8.085 sec/step)
+INFO:tensorflow:global step 135: loss = 5.1567 (7.901 sec/step)
+INFO:tensorflow:global step 135: loss = 5.1567 (7.901 sec/step)
+INFO:tensorflow:global step 136: loss = 4.4925 (8.111 sec/step)
+INFO:tensorflow:global step 136: loss = 4.4925 (8.111 sec/step)
+INFO:tensorflow:global step 137: loss = 3.8408 (7.865 sec/step)
+INFO:tensorflow:global step 137: loss = 3.8408 (7.865 sec/step)
+INFO:tensorflow:global step 138: loss = 4.3898 (8.049 sec/step)
+INFO:tensorflow:global step 138: loss = 4.3898 (8.049 sec/step)
+INFO:tensorflow:global step 139: loss = 5.6847 (8.000 sec/step)
+INFO:tensorflow:global step 139: loss = 5.6847 (8.000 sec/step)
+INFO:tensorflow:global step 140: loss = 4.4188 (7.971 sec/step)
+INFO:tensorflow:global step 140: loss = 4.4188 (7.971 sec/step)
+INFO:tensorflow:global step 141: loss = 4.9043 (7.870 sec/step)
+INFO:tensorflow:global step 141: loss = 4.9043 (7.870 sec/step)
+INFO:tensorflow:global step 142: loss = 4.7124 (7.740 sec/step)
+INFO:tensorflow:global step 142: loss = 4.7124 (7.740 sec/step)
+INFO:tensorflow:Recording summary at step 142.
+INFO:tensorflow:Recording summary at step 142.
+INFO:tensorflow:global_step/sec: 0.116667
+INFO:tensorflow:global_step/sec: 0.116667
+INFO:tensorflow:global step 143: loss = 4.6886 (9.512 sec/step)
+INFO:tensorflow:global step 143: loss = 4.6886 (9.512 sec/step)
+INFO:tensorflow:global step 144: loss = 5.3934 (8.080 sec/step)
+INFO:tensorflow:global step 144: loss = 5.3934 (8.080 sec/step)
+INFO:tensorflow:global step 145: loss = 4.2110 (7.805 sec/step)
+INFO:tensorflow:global step 145: loss = 4.2110 (7.805 sec/step)
+INFO:tensorflow:global step 146: loss = 4.6123 (8.114 sec/step)
+INFO:tensorflow:global step 146: loss = 4.6123 (8.114 sec/step)
+INFO:tensorflow:global step 147: loss = 4.4438 (8.043 sec/step)
+INFO:tensorflow:global step 147: loss = 4.4438 (8.043 sec/step)
+INFO:tensorflow:global step 148: loss = 3.5476 (7.998 sec/step)
+INFO:tensorflow:global step 148: loss = 3.5476 (7.998 sec/step)
+INFO:tensorflow:global step 149: loss = 4.7115 (8.329 sec/step)
+INFO:tensorflow:global step 149: loss = 4.7115 (8.329 sec/step)
+INFO:tensorflow:global step 150: loss = 3.7710 (8.279 sec/step)
+INFO:tensorflow:global step 150: loss = 3.7710 (8.279 sec/step)
+INFO:tensorflow:global step 151: loss = 3.7567 (7.947 sec/step)
+INFO:tensorflow:global step 151: loss = 3.7567 (7.947 sec/step)
+INFO:tensorflow:global step 152: loss = 4.0415 (8.051 sec/step)
+INFO:tensorflow:global step 152: loss = 4.0415 (8.051 sec/step)
+INFO:tensorflow:global step 153: loss = 3.1008 (8.189 sec/step)
+INFO:tensorflow:global step 153: loss = 3.1008 (8.189 sec/step)
+INFO:tensorflow:global step 154: loss = 3.9611 (7.927 sec/step)
+INFO:tensorflow:global step 154: loss = 3.9611 (7.927 sec/step)
+INFO:tensorflow:global step 155: loss = 4.1237 (8.074 sec/step)
+INFO:tensorflow:global step 155: loss = 4.1237 (8.074 sec/step)
+INFO:tensorflow:global step 156: loss = 3.9359 (8.096 sec/step)
+INFO:tensorflow:global step 156: loss = 3.9359 (8.096 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:global step 157: loss = 3.6191 (8.892 sec/step)
+INFO:tensorflow:global step 157: loss = 3.6191 (8.892 sec/step)
+INFO:tensorflow:Recording summary at step 157.
+INFO:tensorflow:Recording summary at step 157.
+INFO:tensorflow:global step 158: loss = 4.7522 (8.957 sec/step)
+INFO:tensorflow:global step 158: loss = 4.7522 (8.957 sec/step)
+INFO:tensorflow:global step 159: loss = 3.3930 (7.878 sec/step)
+INFO:tensorflow:global step 159: loss = 3.3930 (7.878 sec/step)
+INFO:tensorflow:global step 160: loss = 3.7679 (7.813 sec/step)
+INFO:tensorflow:global step 160: loss = 3.7679 (7.813 sec/step)
+INFO:tensorflow:global step 161: loss = 3.4770 (7.999 sec/step)
+INFO:tensorflow:global step 161: loss = 3.4770 (7.999 sec/step)
+INFO:tensorflow:global step 162: loss = 4.5256 (7.799 sec/step)
+INFO:tensorflow:global step 162: loss = 4.5256 (7.799 sec/step)
+INFO:tensorflow:global step 163: loss = 4.0427 (8.074 sec/step)
+INFO:tensorflow:global step 163: loss = 4.0427 (8.074 sec/step)
+INFO:tensorflow:global step 164: loss = 3.8927 (8.080 sec/step)
+INFO:tensorflow:global step 164: loss = 3.8927 (8.080 sec/step)
+INFO:tensorflow:global step 165: loss = 3.8556 (8.028 sec/step)
+INFO:tensorflow:global step 165: loss = 3.8556 (8.028 sec/step)
+INFO:tensorflow:global step 166: loss = 3.9733 (7.828 sec/step)
+INFO:tensorflow:global step 166: loss = 3.9733 (7.828 sec/step)
+INFO:tensorflow:global step 167: loss = 3.1687 (7.881 sec/step)
+INFO:tensorflow:global step 167: loss = 3.1687 (7.881 sec/step)
+INFO:tensorflow:global step 168: loss = 4.3183 (7.977 sec/step)
+INFO:tensorflow:global step 168: loss = 4.3183 (7.977 sec/step)
+INFO:tensorflow:global step 169: loss = 3.9990 (8.055 sec/step)
+INFO:tensorflow:global step 169: loss = 3.9990 (8.055 sec/step)
+INFO:tensorflow:global step 170: loss = 4.5087 (8.194 sec/step)
+INFO:tensorflow:global step 170: loss = 4.5087 (8.194 sec/step)
+INFO:tensorflow:global step 171: loss = 3.1446 (7.904 sec/step)
+INFO:tensorflow:global step 171: loss = 3.1446 (7.904 sec/step)
+INFO:tensorflow:global step 172: loss = 4.1342 (8.812 sec/step)
+INFO:tensorflow:global step 172: loss = 4.1342 (8.812 sec/step)
+INFO:tensorflow:Recording summary at step 172.
+INFO:tensorflow:Recording summary at step 172.
+INFO:tensorflow:global step 173: loss = 3.8290 (8.380 sec/step)
+INFO:tensorflow:global step 173: loss = 3.8290 (8.380 sec/step)
+INFO:tensorflow:global step 174: loss = 5.5241 (8.200 sec/step)
+INFO:tensorflow:global step 174: loss = 5.5241 (8.200 sec/step)
+INFO:tensorflow:global step 175: loss = 4.2891 (8.139 sec/step)
+INFO:tensorflow:global step 175: loss = 4.2891 (8.139 sec/step)
+INFO:tensorflow:global step 176: loss = 3.9465 (8.216 sec/step)
+INFO:tensorflow:global step 176: loss = 3.9465 (8.216 sec/step)
+INFO:tensorflow:global step 177: loss = 4.0186 (7.832 sec/step)
+INFO:tensorflow:global step 177: loss = 4.0186 (7.832 sec/step)
+INFO:tensorflow:global step 178: loss = 4.1099 (8.172 sec/step)
+INFO:tensorflow:global step 178: loss = 4.1099 (8.172 sec/step)
+INFO:tensorflow:global step 179: loss = 4.2647 (8.092 sec/step)
+INFO:tensorflow:global step 179: loss = 4.2647 (8.092 sec/step)
+INFO:tensorflow:global step 180: loss = 3.5902 (8.162 sec/step)
+INFO:tensorflow:global step 180: loss = 3.5902 (8.162 sec/step)
+INFO:tensorflow:global step 181: loss = 3.8136 (8.102 sec/step)
+INFO:tensorflow:global step 181: loss = 3.8136 (8.102 sec/step)
+INFO:tensorflow:global step 182: loss = 4.1626 (8.054 sec/step)
+INFO:tensorflow:global step 182: loss = 4.1626 (8.054 sec/step)
+INFO:tensorflow:global step 183: loss = 3.8768 (7.844 sec/step)
+INFO:tensorflow:global step 183: loss = 3.8768 (7.844 sec/step)
+INFO:tensorflow:global step 184: loss = 4.2330 (7.897 sec/step)
+INFO:tensorflow:global step 184: loss = 4.2330 (7.897 sec/step)
+INFO:tensorflow:global step 185: loss = 4.2456 (8.125 sec/step)
+INFO:tensorflow:global step 185: loss = 4.2456 (8.125 sec/step)
+INFO:tensorflow:global step 186: loss = 4.5835 (8.032 sec/step)
+INFO:tensorflow:global step 186: loss = 4.5835 (8.032 sec/step)
+INFO:tensorflow:Recording summary at step 186.
+INFO:tensorflow:Recording summary at step 186.
+INFO:tensorflow:global step 187: loss = 5.5007 (9.291 sec/step)
+INFO:tensorflow:global step 187: loss = 5.5007 (9.291 sec/step)
+INFO:tensorflow:global step 188: loss = 4.8460 (7.845 sec/step)
+INFO:tensorflow:global step 188: loss = 4.8460 (7.845 sec/step)
+INFO:tensorflow:global step 189: loss = 3.7424 (8.037 sec/step)
+INFO:tensorflow:global step 189: loss = 3.7424 (8.037 sec/step)
+INFO:tensorflow:global step 190: loss = 4.8170 (7.750 sec/step)
+INFO:tensorflow:global step 190: loss = 4.8170 (7.750 sec/step)
+INFO:tensorflow:global step 191: loss = 3.8273 (7.748 sec/step)
+INFO:tensorflow:global step 191: loss = 3.8273 (7.748 sec/step)
+INFO:tensorflow:global step 192: loss = 4.2548 (7.679 sec/step)
+INFO:tensorflow:global step 192: loss = 4.2548 (7.679 sec/step)
+INFO:tensorflow:global step 193: loss = 3.8464 (7.786 sec/step)
+INFO:tensorflow:global step 193: loss = 3.8464 (7.786 sec/step)
+INFO:tensorflow:global step 194: loss = 3.7774 (7.925 sec/step)
+INFO:tensorflow:global step 194: loss = 3.7774 (7.925 sec/step)
+INFO:tensorflow:global step 195: loss = 4.0967 (8.158 sec/step)
+INFO:tensorflow:global step 195: loss = 4.0967 (8.158 sec/step)
+INFO:tensorflow:global step 196: loss = 3.3838 (7.777 sec/step)
+INFO:tensorflow:global step 196: loss = 3.3838 (7.777 sec/step)
+INFO:tensorflow:global step 197: loss = 3.7638 (7.756 sec/step)
+INFO:tensorflow:global step 197: loss = 3.7638 (7.756 sec/step)
+INFO:tensorflow:global step 198: loss = 4.5184 (7.635 sec/step)
+INFO:tensorflow:global step 198: loss = 4.5184 (7.635 sec/step)
+INFO:tensorflow:global step 199: loss = 3.6476 (7.822 sec/step)
+INFO:tensorflow:global step 199: loss = 3.6476 (7.822 sec/step)
+INFO:tensorflow:global step 200: loss = 3.7949 (7.679 sec/step)
+INFO:tensorflow:global step 200: loss = 3.7949 (7.679 sec/step)
+INFO:tensorflow:global step 201: loss = 4.0180 (7.725 sec/step)
+INFO:tensorflow:global step 201: loss = 4.0180 (7.725 sec/step)
+INFO:tensorflow:Recording summary at step 201.
+INFO:tensorflow:Recording summary at step 201.
+INFO:tensorflow:global step 202: loss = 3.6631 (8.873 sec/step)
+INFO:tensorflow:global step 202: loss = 3.6631 (8.873 sec/step)
+INFO:tensorflow:global step 203: loss = 4.2539 (8.026 sec/step)
+INFO:tensorflow:global step 203: loss = 4.2539 (8.026 sec/step)
+INFO:tensorflow:global step 204: loss = 3.8103 (7.900 sec/step)
+INFO:tensorflow:global step 204: loss = 3.8103 (7.900 sec/step)
+INFO:tensorflow:global step 205: loss = 3.8928 (7.623 sec/step)
+INFO:tensorflow:global step 205: loss = 3.8928 (7.623 sec/step)
+INFO:tensorflow:global step 206: loss = 3.5040 (7.639 sec/step)
+INFO:tensorflow:global step 206: loss = 3.5040 (7.639 sec/step)
+INFO:tensorflow:global step 207: loss = 4.2899 (7.843 sec/step)
+INFO:tensorflow:global step 207: loss = 4.2899 (7.843 sec/step)
+INFO:tensorflow:global step 208: loss = 3.0315 (7.817 sec/step)
+INFO:tensorflow:global step 208: loss = 3.0315 (7.817 sec/step)
+INFO:tensorflow:global step 209: loss = 5.0527 (7.829 sec/step)
+INFO:tensorflow:global step 209: loss = 5.0527 (7.829 sec/step)
+INFO:tensorflow:global step 210: loss = 3.8226 (7.797 sec/step)
+INFO:tensorflow:global step 210: loss = 3.8226 (7.797 sec/step)
+INFO:tensorflow:global step 211: loss = 4.2021 (7.749 sec/step)
+INFO:tensorflow:global step 211: loss = 4.2021 (7.749 sec/step)
+INFO:tensorflow:global step 212: loss = 3.6429 (7.830 sec/step)
+INFO:tensorflow:global step 212: loss = 3.6429 (7.830 sec/step)
+INFO:tensorflow:global step 213: loss = 4.3051 (7.764 sec/step)
+INFO:tensorflow:global step 213: loss = 4.3051 (7.764 sec/step)
+INFO:tensorflow:global step 214: loss = 3.7745 (7.818 sec/step)
+INFO:tensorflow:global step 214: loss = 3.7745 (7.818 sec/step)
+INFO:tensorflow:global step 215: loss = 4.0841 (7.652 sec/step)
+INFO:tensorflow:global step 215: loss = 4.0841 (7.652 sec/step)
+INFO:tensorflow:global step 216: loss = 4.2345 (7.655 sec/step)
+INFO:tensorflow:global step 216: loss = 4.2345 (7.655 sec/step)
+INFO:tensorflow:global step 217: loss = 3.7618 (7.644 sec/step)
+INFO:tensorflow:global step 217: loss = 3.7618 (7.644 sec/step)
+INFO:tensorflow:Recording summary at step 217.
+INFO:tensorflow:Recording summary at step 217.
+INFO:tensorflow:global step 218: loss = 3.7340 (9.272 sec/step)
+INFO:tensorflow:global step 218: loss = 3.7340 (9.272 sec/step)
+INFO:tensorflow:global step 219: loss = 3.0230 (7.735 sec/step)
+INFO:tensorflow:global step 219: loss = 3.0230 (7.735 sec/step)
+INFO:tensorflow:global step 220: loss = 4.9472 (7.789 sec/step)
+INFO:tensorflow:global step 220: loss = 4.9472 (7.789 sec/step)
+INFO:tensorflow:global step 221: loss = 4.6596 (7.663 sec/step)
+INFO:tensorflow:global step 221: loss = 4.6596 (7.663 sec/step)
+INFO:tensorflow:global step 222: loss = 3.0162 (7.673 sec/step)
+INFO:tensorflow:global step 222: loss = 3.0162 (7.673 sec/step)
+INFO:tensorflow:global step 223: loss = 4.0388 (7.814 sec/step)
+INFO:tensorflow:global step 223: loss = 4.0388 (7.814 sec/step)
+INFO:tensorflow:global step 224: loss = 3.8994 (7.774 sec/step)
+INFO:tensorflow:global step 224: loss = 3.8994 (7.774 sec/step)
+INFO:tensorflow:global step 225: loss = 3.6233 (8.048 sec/step)
+INFO:tensorflow:global step 225: loss = 3.6233 (8.048 sec/step)
+INFO:tensorflow:global step 226: loss = 4.5852 (7.689 sec/step)
+INFO:tensorflow:global step 226: loss = 4.5852 (7.689 sec/step)
+INFO:tensorflow:global step 227: loss = 3.3773 (7.921 sec/step)
+INFO:tensorflow:global step 227: loss = 3.3773 (7.921 sec/step)
+INFO:tensorflow:global step 228: loss = 5.2126 (7.971 sec/step)
+INFO:tensorflow:global step 228: loss = 5.2126 (7.971 sec/step)
+INFO:tensorflow:global step 229: loss = 4.1198 (7.947 sec/step)
+INFO:tensorflow:global step 229: loss = 4.1198 (7.947 sec/step)
+INFO:tensorflow:global step 230: loss = 4.1663 (7.707 sec/step)
+INFO:tensorflow:global step 230: loss = 4.1663 (7.707 sec/step)
+INFO:tensorflow:global step 231: loss = 4.5496 (7.765 sec/step)
+INFO:tensorflow:global step 231: loss = 4.5496 (7.765 sec/step)
+INFO:tensorflow:global step 232: loss = 3.8042 (7.706 sec/step)
+INFO:tensorflow:global step 232: loss = 3.8042 (7.706 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 232.
+INFO:tensorflow:Recording summary at step 232.
+INFO:tensorflow:global step 233: loss = 3.6444 (9.327 sec/step)
+INFO:tensorflow:global step 233: loss = 3.6444 (9.327 sec/step)
+INFO:tensorflow:global step 234: loss = 4.1684 (7.905 sec/step)
+INFO:tensorflow:global step 234: loss = 4.1684 (7.905 sec/step)
+INFO:tensorflow:global step 235: loss = 4.1876 (7.649 sec/step)
+INFO:tensorflow:global step 235: loss = 4.1876 (7.649 sec/step)
+INFO:tensorflow:global step 236: loss = 3.4508 (7.617 sec/step)
+INFO:tensorflow:global step 236: loss = 3.4508 (7.617 sec/step)
+INFO:tensorflow:global step 237: loss = 3.3660 (7.722 sec/step)
+INFO:tensorflow:global step 237: loss = 3.3660 (7.722 sec/step)
+INFO:tensorflow:global step 238: loss = 3.9513 (7.666 sec/step)
+INFO:tensorflow:global step 238: loss = 3.9513 (7.666 sec/step)
+INFO:tensorflow:global step 239: loss = 4.1712 (7.727 sec/step)
+INFO:tensorflow:global step 239: loss = 4.1712 (7.727 sec/step)
+INFO:tensorflow:global step 240: loss = 3.8791 (7.861 sec/step)
+INFO:tensorflow:global step 240: loss = 3.8791 (7.861 sec/step)
+INFO:tensorflow:global step 241: loss = 3.6469 (8.084 sec/step)
+INFO:tensorflow:global step 241: loss = 3.6469 (8.084 sec/step)
+INFO:tensorflow:global step 242: loss = 3.9639 (7.712 sec/step)
+INFO:tensorflow:global step 242: loss = 3.9639 (7.712 sec/step)
+INFO:tensorflow:global step 243: loss = 3.8742 (7.960 sec/step)
+INFO:tensorflow:global step 243: loss = 3.8742 (7.960 sec/step)
+INFO:tensorflow:global step 244: loss = 4.2679 (7.588 sec/step)
+INFO:tensorflow:global step 244: loss = 4.2679 (7.588 sec/step)
+INFO:tensorflow:global step 245: loss = 3.8625 (7.869 sec/step)
+INFO:tensorflow:global step 245: loss = 3.8625 (7.869 sec/step)
+INFO:tensorflow:global step 246: loss = 4.0979 (7.731 sec/step)
+INFO:tensorflow:global step 246: loss = 4.0979 (7.731 sec/step)
+INFO:tensorflow:global step 247: loss = 4.1151 (7.805 sec/step)
+INFO:tensorflow:global step 247: loss = 4.1151 (7.805 sec/step)
+INFO:tensorflow:Recording summary at step 247.
+INFO:tensorflow:Recording summary at step 247.
+INFO:tensorflow:global step 248: loss = 3.8178 (9.067 sec/step)
+INFO:tensorflow:global step 248: loss = 3.8178 (9.067 sec/step)
+INFO:tensorflow:global step 249: loss = 4.9507 (8.014 sec/step)
+INFO:tensorflow:global step 249: loss = 4.9507 (8.014 sec/step)
+INFO:tensorflow:global step 250: loss = 5.1390 (7.622 sec/step)
+INFO:tensorflow:global step 250: loss = 5.1390 (7.622 sec/step)
+INFO:tensorflow:global step 251: loss = 4.9047 (7.805 sec/step)
+INFO:tensorflow:global step 251: loss = 4.9047 (7.805 sec/step)
+INFO:tensorflow:global step 252: loss = 3.9888 (7.778 sec/step)
+INFO:tensorflow:global step 252: loss = 3.9888 (7.778 sec/step)
+INFO:tensorflow:global step 253: loss = 4.5759 (7.530 sec/step)
+INFO:tensorflow:global step 253: loss = 4.5759 (7.530 sec/step)
+INFO:tensorflow:global step 254: loss = 3.8014 (7.615 sec/step)
+INFO:tensorflow:global step 254: loss = 3.8014 (7.615 sec/step)
+INFO:tensorflow:global step 255: loss = 4.1219 (7.632 sec/step)
+INFO:tensorflow:global step 255: loss = 4.1219 (7.632 sec/step)
+INFO:tensorflow:global step 256: loss = 4.4246 (7.742 sec/step)
+INFO:tensorflow:global step 256: loss = 4.4246 (7.742 sec/step)
+INFO:tensorflow:global step 257: loss = 4.3556 (7.742 sec/step)
+INFO:tensorflow:global step 257: loss = 4.3556 (7.742 sec/step)
+INFO:tensorflow:global step 258: loss = 4.1913 (7.597 sec/step)
+INFO:tensorflow:global step 258: loss = 4.1913 (7.597 sec/step)
+INFO:tensorflow:global step 259: loss = 3.8743 (7.725 sec/step)
+INFO:tensorflow:global step 259: loss = 3.8743 (7.725 sec/step)
+INFO:tensorflow:global step 260: loss = 4.0253 (7.864 sec/step)
+INFO:tensorflow:global step 260: loss = 4.0253 (7.864 sec/step)
+INFO:tensorflow:global step 261: loss = 3.6751 (7.873 sec/step)
+INFO:tensorflow:global step 261: loss = 3.6751 (7.873 sec/step)
+INFO:tensorflow:global step 262: loss = 3.7635 (7.799 sec/step)
+INFO:tensorflow:global step 262: loss = 3.7635 (7.799 sec/step)
+INFO:tensorflow:Recording summary at step 262.
+INFO:tensorflow:Recording summary at step 262.
+INFO:tensorflow:global step 263: loss = 3.3327 (8.794 sec/step)
+INFO:tensorflow:global step 263: loss = 3.3327 (8.794 sec/step)
+INFO:tensorflow:global step 264: loss = 4.6013 (7.613 sec/step)
+INFO:tensorflow:global step 264: loss = 4.6013 (7.613 sec/step)
+INFO:tensorflow:global step 265: loss = 3.6440 (7.888 sec/step)
+INFO:tensorflow:global step 265: loss = 3.6440 (7.888 sec/step)
+INFO:tensorflow:global step 266: loss = 3.9245 (7.667 sec/step)
+INFO:tensorflow:global step 266: loss = 3.9245 (7.667 sec/step)
+INFO:tensorflow:global step 267: loss = 4.1738 (7.749 sec/step)
+INFO:tensorflow:global step 267: loss = 4.1738 (7.749 sec/step)
+INFO:tensorflow:global step 268: loss = 4.5211 (7.593 sec/step)
+INFO:tensorflow:global step 268: loss = 4.5211 (7.593 sec/step)
+INFO:tensorflow:global step 269: loss = 3.8691 (7.696 sec/step)
+INFO:tensorflow:global step 269: loss = 3.8691 (7.696 sec/step)
+INFO:tensorflow:global step 270: loss = 4.2119 (7.884 sec/step)
+INFO:tensorflow:global step 270: loss = 4.2119 (7.884 sec/step)
+INFO:tensorflow:global step 271: loss = 4.0319 (7.969 sec/step)
+INFO:tensorflow:global step 271: loss = 4.0319 (7.969 sec/step)
+INFO:tensorflow:global step 272: loss = 4.5985 (7.806 sec/step)
+INFO:tensorflow:global step 272: loss = 4.5985 (7.806 sec/step)
+INFO:tensorflow:global step 273: loss = 3.3978 (7.690 sec/step)
+INFO:tensorflow:global step 273: loss = 3.3978 (7.690 sec/step)
+INFO:tensorflow:global step 274: loss = 4.0913 (7.710 sec/step)
+INFO:tensorflow:global step 274: loss = 4.0913 (7.710 sec/step)
+INFO:tensorflow:global step 275: loss = 4.5676 (7.677 sec/step)
+INFO:tensorflow:global step 275: loss = 4.5676 (7.677 sec/step)
+INFO:tensorflow:global step 276: loss = 3.7719 (8.003 sec/step)
+INFO:tensorflow:global step 276: loss = 3.7719 (8.003 sec/step)
+INFO:tensorflow:global step 277: loss = 4.2968 (8.012 sec/step)
+INFO:tensorflow:global step 277: loss = 4.2968 (8.012 sec/step)
+INFO:tensorflow:global step 278: loss = 4.1864 (7.721 sec/step)
+INFO:tensorflow:global step 278: loss = 4.1864 (7.721 sec/step)
+INFO:tensorflow:Recording summary at step 278.
+INFO:tensorflow:Recording summary at step 278.
+INFO:tensorflow:global step 279: loss = 4.8003 (9.701 sec/step)
+INFO:tensorflow:global step 279: loss = 4.8003 (9.701 sec/step)
+INFO:tensorflow:global step 280: loss = 3.6410 (7.765 sec/step)
+INFO:tensorflow:global step 280: loss = 3.6410 (7.765 sec/step)
+INFO:tensorflow:global step 281: loss = 3.4764 (7.788 sec/step)
+INFO:tensorflow:global step 281: loss = 3.4764 (7.788 sec/step)
+INFO:tensorflow:global step 282: loss = 3.5565 (7.649 sec/step)
+INFO:tensorflow:global step 282: loss = 3.5565 (7.649 sec/step)
+INFO:tensorflow:global step 283: loss = 4.0603 (7.771 sec/step)
+INFO:tensorflow:global step 283: loss = 4.0603 (7.771 sec/step)
+INFO:tensorflow:global step 284: loss = 2.8798 (7.927 sec/step)
+INFO:tensorflow:global step 284: loss = 2.8798 (7.927 sec/step)
+INFO:tensorflow:global step 285: loss = 4.3572 (7.727 sec/step)
+INFO:tensorflow:global step 285: loss = 4.3572 (7.727 sec/step)
+INFO:tensorflow:global step 286: loss = 3.7145 (8.054 sec/step)
+INFO:tensorflow:global step 286: loss = 3.7145 (8.054 sec/step)
+INFO:tensorflow:global step 287: loss = 3.5338 (7.602 sec/step)
+INFO:tensorflow:global step 287: loss = 3.5338 (7.602 sec/step)
+INFO:tensorflow:global step 288: loss = 3.9062 (7.594 sec/step)
+INFO:tensorflow:global step 288: loss = 3.9062 (7.594 sec/step)
+INFO:tensorflow:global step 289: loss = 4.2328 (7.642 sec/step)
+INFO:tensorflow:global step 289: loss = 4.2328 (7.642 sec/step)
+INFO:tensorflow:global step 290: loss = 3.7321 (7.710 sec/step)
+INFO:tensorflow:global step 290: loss = 3.7321 (7.710 sec/step)
+INFO:tensorflow:global step 291: loss = 2.6063 (7.694 sec/step)
+INFO:tensorflow:global step 291: loss = 2.6063 (7.694 sec/step)
+INFO:tensorflow:global step 292: loss = 4.0081 (7.920 sec/step)
+INFO:tensorflow:global step 292: loss = 4.0081 (7.920 sec/step)
+INFO:tensorflow:global step 293: loss = 3.5026 (7.826 sec/step)
+INFO:tensorflow:global step 293: loss = 3.5026 (7.826 sec/step)
+INFO:tensorflow:Recording summary at step 293.
+INFO:tensorflow:Recording summary at step 293.
+INFO:tensorflow:global step 294: loss = 2.6895 (9.139 sec/step)
+INFO:tensorflow:global step 294: loss = 2.6895 (9.139 sec/step)
+INFO:tensorflow:global step 295: loss = 3.2383 (7.768 sec/step)
+INFO:tensorflow:global step 295: loss = 3.2383 (7.768 sec/step)
+INFO:tensorflow:global step 296: loss = 4.2154 (7.657 sec/step)
+INFO:tensorflow:global step 296: loss = 4.2154 (7.657 sec/step)
+INFO:tensorflow:global step 297: loss = 3.1114 (7.756 sec/step)
+INFO:tensorflow:global step 297: loss = 3.1114 (7.756 sec/step)
+INFO:tensorflow:global step 298: loss = 3.6838 (7.703 sec/step)
+INFO:tensorflow:global step 298: loss = 3.6838 (7.703 sec/step)
+INFO:tensorflow:global step 299: loss = 3.0236 (7.656 sec/step)
+INFO:tensorflow:global step 299: loss = 3.0236 (7.656 sec/step)
+INFO:tensorflow:global step 300: loss = 3.1183 (7.890 sec/step)
+INFO:tensorflow:global step 300: loss = 3.1183 (7.890 sec/step)
+INFO:tensorflow:global step 301: loss = 3.2749 (7.669 sec/step)
+INFO:tensorflow:global step 301: loss = 3.2749 (7.669 sec/step)
+INFO:tensorflow:global step 302: loss = 3.3471 (7.860 sec/step)
+INFO:tensorflow:global step 302: loss = 3.3471 (7.860 sec/step)
+INFO:tensorflow:global step 303: loss = 3.2094 (7.863 sec/step)
+INFO:tensorflow:global step 303: loss = 3.2094 (7.863 sec/step)
+INFO:tensorflow:global step 304: loss = 4.2070 (7.711 sec/step)
+INFO:tensorflow:global step 304: loss = 4.2070 (7.711 sec/step)
+INFO:tensorflow:global step 305: loss = 3.1170 (7.596 sec/step)
+INFO:tensorflow:global step 305: loss = 3.1170 (7.596 sec/step)
+INFO:tensorflow:global step 306: loss = 3.6336 (7.673 sec/step)
+INFO:tensorflow:global step 306: loss = 3.6336 (7.673 sec/step)
+INFO:tensorflow:global step 307: loss = 3.3711 (7.902 sec/step)
+INFO:tensorflow:global step 307: loss = 3.3711 (7.902 sec/step)
+INFO:tensorflow:global step 308: loss = 3.4498 (7.728 sec/step)
+INFO:tensorflow:global step 308: loss = 3.4498 (7.728 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 308.
+INFO:tensorflow:Recording summary at step 308.
+INFO:tensorflow:global step 309: loss = 2.6586 (8.790 sec/step)
+INFO:tensorflow:global step 309: loss = 2.6586 (8.790 sec/step)
+INFO:tensorflow:global step 310: loss = 3.1983 (7.981 sec/step)
+INFO:tensorflow:global step 310: loss = 3.1983 (7.981 sec/step)
+INFO:tensorflow:global step 311: loss = 4.1388 (7.873 sec/step)
+INFO:tensorflow:global step 311: loss = 4.1388 (7.873 sec/step)
+INFO:tensorflow:global step 312: loss = 2.9362 (7.910 sec/step)
+INFO:tensorflow:global step 312: loss = 2.9362 (7.910 sec/step)
+INFO:tensorflow:global step 313: loss = 4.1482 (7.723 sec/step)
+INFO:tensorflow:global step 313: loss = 4.1482 (7.723 sec/step)
+INFO:tensorflow:global step 314: loss = 3.0803 (8.029 sec/step)
+INFO:tensorflow:global step 314: loss = 3.0803 (8.029 sec/step)
+INFO:tensorflow:global step 315: loss = 3.6075 (7.907 sec/step)
+INFO:tensorflow:global step 315: loss = 3.6075 (7.907 sec/step)
+INFO:tensorflow:global step 316: loss = 4.0822 (7.569 sec/step)
+INFO:tensorflow:global step 316: loss = 4.0822 (7.569 sec/step)
+INFO:tensorflow:global step 317: loss = 3.8251 (7.957 sec/step)
+INFO:tensorflow:global step 317: loss = 3.8251 (7.957 sec/step)
+INFO:tensorflow:global step 318: loss = 3.4378 (7.839 sec/step)
+INFO:tensorflow:global step 318: loss = 3.4378 (7.839 sec/step)
+INFO:tensorflow:global step 319: loss = 3.1215 (7.631 sec/step)
+INFO:tensorflow:global step 319: loss = 3.1215 (7.631 sec/step)
+INFO:tensorflow:global step 320: loss = 3.4543 (7.914 sec/step)
+INFO:tensorflow:global step 320: loss = 3.4543 (7.914 sec/step)
+INFO:tensorflow:global step 321: loss = 4.0628 (7.761 sec/step)
+INFO:tensorflow:global step 321: loss = 4.0628 (7.761 sec/step)
+INFO:tensorflow:global step 322: loss = 3.5728 (7.795 sec/step)
+INFO:tensorflow:global step 322: loss = 3.5728 (7.795 sec/step)
+INFO:tensorflow:global step 323: loss = 4.2049 (7.731 sec/step)
+INFO:tensorflow:global step 323: loss = 4.2049 (7.731 sec/step)
+INFO:tensorflow:global step 324: loss = 3.0831 (8.463 sec/step)
+INFO:tensorflow:global step 324: loss = 3.0831 (8.463 sec/step)
+INFO:tensorflow:Recording summary at step 324.
+INFO:tensorflow:Recording summary at step 324.
+INFO:tensorflow:global step 325: loss = 4.7761 (8.163 sec/step)
+INFO:tensorflow:global step 325: loss = 4.7761 (8.163 sec/step)
+INFO:tensorflow:global step 326: loss = 3.9259 (7.629 sec/step)
+INFO:tensorflow:global step 326: loss = 3.9259 (7.629 sec/step)
+INFO:tensorflow:global step 327: loss = 3.9702 (7.640 sec/step)
+INFO:tensorflow:global step 327: loss = 3.9702 (7.640 sec/step)
+INFO:tensorflow:global step 328: loss = 3.8233 (7.660 sec/step)
+INFO:tensorflow:global step 328: loss = 3.8233 (7.660 sec/step)
+INFO:tensorflow:global step 329: loss = 3.4260 (7.603 sec/step)
+INFO:tensorflow:global step 329: loss = 3.4260 (7.603 sec/step)
+INFO:tensorflow:global step 330: loss = 3.8408 (7.812 sec/step)
+INFO:tensorflow:global step 330: loss = 3.8408 (7.812 sec/step)
+INFO:tensorflow:global step 331: loss = 3.7901 (7.887 sec/step)
+INFO:tensorflow:global step 331: loss = 3.7901 (7.887 sec/step)
+INFO:tensorflow:global step 332: loss = 4.4133 (7.830 sec/step)
+INFO:tensorflow:global step 332: loss = 4.4133 (7.830 sec/step)
+INFO:tensorflow:global step 333: loss = 3.4224 (7.977 sec/step)
+INFO:tensorflow:global step 333: loss = 3.4224 (7.977 sec/step)
+INFO:tensorflow:global step 334: loss = 4.2520 (7.922 sec/step)
+INFO:tensorflow:global step 334: loss = 4.2520 (7.922 sec/step)
+INFO:tensorflow:global step 335: loss = 3.8133 (7.751 sec/step)
+INFO:tensorflow:global step 335: loss = 3.8133 (7.751 sec/step)
+INFO:tensorflow:global step 336: loss = 3.8102 (7.743 sec/step)
+INFO:tensorflow:global step 336: loss = 3.8102 (7.743 sec/step)
+INFO:tensorflow:global step 337: loss = 3.8650 (7.799 sec/step)
+INFO:tensorflow:global step 337: loss = 3.8650 (7.799 sec/step)
+INFO:tensorflow:global step 338: loss = 3.4352 (7.594 sec/step)
+INFO:tensorflow:global step 338: loss = 3.4352 (7.594 sec/step)
+INFO:tensorflow:global step 339: loss = 2.9383 (7.558 sec/step)
+INFO:tensorflow:global step 339: loss = 2.9383 (7.558 sec/step)
+INFO:tensorflow:Recording summary at step 339.
+INFO:tensorflow:Recording summary at step 339.
+INFO:tensorflow:global step 340: loss = 3.9121 (9.410 sec/step)
+INFO:tensorflow:global step 340: loss = 3.9121 (9.410 sec/step)
+INFO:tensorflow:global step 341: loss = 3.9854 (7.919 sec/step)
+INFO:tensorflow:global step 341: loss = 3.9854 (7.919 sec/step)
+INFO:tensorflow:global step 342: loss = 3.6801 (8.081 sec/step)
+INFO:tensorflow:global step 342: loss = 3.6801 (8.081 sec/step)
+INFO:tensorflow:global step 343: loss = 2.8845 (7.707 sec/step)
+INFO:tensorflow:global step 343: loss = 2.8845 (7.707 sec/step)
+INFO:tensorflow:global step 344: loss = 3.8540 (7.755 sec/step)
+INFO:tensorflow:global step 344: loss = 3.8540 (7.755 sec/step)
+INFO:tensorflow:global step 345: loss = 4.4155 (7.689 sec/step)
+INFO:tensorflow:global step 345: loss = 4.4155 (7.689 sec/step)
+INFO:tensorflow:global step 346: loss = 3.2262 (8.051 sec/step)
+INFO:tensorflow:global step 346: loss = 3.2262 (8.051 sec/step)
+INFO:tensorflow:global step 347: loss = 3.8503 (8.307 sec/step)
+INFO:tensorflow:global step 347: loss = 3.8503 (8.307 sec/step)
+INFO:tensorflow:global step 348: loss = 3.3337 (7.661 sec/step)
+INFO:tensorflow:global step 348: loss = 3.3337 (7.661 sec/step)
+INFO:tensorflow:global step 349: loss = 4.0557 (7.764 sec/step)
+INFO:tensorflow:global step 349: loss = 4.0557 (7.764 sec/step)
+INFO:tensorflow:global step 350: loss = 5.4077 (7.658 sec/step)
+INFO:tensorflow:global step 350: loss = 5.4077 (7.658 sec/step)
+INFO:tensorflow:global step 351: loss = 3.5423 (7.571 sec/step)
+INFO:tensorflow:global step 351: loss = 3.5423 (7.571 sec/step)
+INFO:tensorflow:global step 352: loss = 3.1166 (8.161 sec/step)
+INFO:tensorflow:global step 352: loss = 3.1166 (8.161 sec/step)
+INFO:tensorflow:global step 353: loss = 4.1018 (7.693 sec/step)
+INFO:tensorflow:global step 353: loss = 4.1018 (7.693 sec/step)
+INFO:tensorflow:global step 354: loss = 3.6033 (7.608 sec/step)
+INFO:tensorflow:global step 354: loss = 3.6033 (7.608 sec/step)
+INFO:tensorflow:Recording summary at step 354.
+INFO:tensorflow:Recording summary at step 354.
+INFO:tensorflow:global step 355: loss = 4.1699 (9.162 sec/step)
+INFO:tensorflow:global step 355: loss = 4.1699 (9.162 sec/step)
+INFO:tensorflow:global step 356: loss = 4.1457 (7.569 sec/step)
+INFO:tensorflow:global step 356: loss = 4.1457 (7.569 sec/step)
+INFO:tensorflow:global step 357: loss = 3.0278 (7.619 sec/step)
+INFO:tensorflow:global step 357: loss = 3.0278 (7.619 sec/step)
+INFO:tensorflow:global step 358: loss = 3.3751 (7.579 sec/step)
+INFO:tensorflow:global step 358: loss = 3.3751 (7.579 sec/step)
+INFO:tensorflow:global step 359: loss = 3.5986 (7.689 sec/step)
+INFO:tensorflow:global step 359: loss = 3.5986 (7.689 sec/step)
+INFO:tensorflow:global step 360: loss = 3.4538 (8.012 sec/step)
+INFO:tensorflow:global step 360: loss = 3.4538 (8.012 sec/step)
+INFO:tensorflow:global step 361: loss = 3.1300 (7.919 sec/step)
+INFO:tensorflow:global step 361: loss = 3.1300 (7.919 sec/step)
+INFO:tensorflow:global step 362: loss = 3.2942 (7.865 sec/step)
+INFO:tensorflow:global step 362: loss = 3.2942 (7.865 sec/step)
+INFO:tensorflow:global step 363: loss = 3.7880 (7.885 sec/step)
+INFO:tensorflow:global step 363: loss = 3.7880 (7.885 sec/step)
+INFO:tensorflow:global step 364: loss = 3.6758 (7.882 sec/step)
+INFO:tensorflow:global step 364: loss = 3.6758 (7.882 sec/step)
+INFO:tensorflow:global step 365: loss = 3.2168 (7.561 sec/step)
+INFO:tensorflow:global step 365: loss = 3.2168 (7.561 sec/step)
+INFO:tensorflow:global step 366: loss = 4.8112 (7.925 sec/step)
+INFO:tensorflow:global step 366: loss = 4.8112 (7.925 sec/step)
+INFO:tensorflow:global step 367: loss = 3.5008 (7.700 sec/step)
+INFO:tensorflow:global step 367: loss = 3.5008 (7.700 sec/step)
+INFO:tensorflow:global step 368: loss = 3.3086 (7.632 sec/step)
+INFO:tensorflow:global step 368: loss = 3.3086 (7.632 sec/step)
+INFO:tensorflow:global step 369: loss = 3.7494 (7.524 sec/step)
+INFO:tensorflow:global step 369: loss = 3.7494 (7.524 sec/step)
+INFO:tensorflow:Recording summary at step 369.
+INFO:tensorflow:Recording summary at step 369.
+INFO:tensorflow:global step 370: loss = 3.2010 (8.786 sec/step)
+INFO:tensorflow:global step 370: loss = 3.2010 (8.786 sec/step)
+INFO:tensorflow:global step 371: loss = 3.7995 (7.885 sec/step)
+INFO:tensorflow:global step 371: loss = 3.7995 (7.885 sec/step)
+INFO:tensorflow:global step 372: loss = 4.1070 (7.631 sec/step)
+INFO:tensorflow:global step 372: loss = 4.1070 (7.631 sec/step)
+INFO:tensorflow:global step 373: loss = 3.9620 (7.879 sec/step)
+INFO:tensorflow:global step 373: loss = 3.9620 (7.879 sec/step)
+INFO:tensorflow:global step 374: loss = 3.9566 (7.643 sec/step)
+INFO:tensorflow:global step 374: loss = 3.9566 (7.643 sec/step)
+INFO:tensorflow:global step 375: loss = 2.9864 (7.735 sec/step)
+INFO:tensorflow:global step 375: loss = 2.9864 (7.735 sec/step)
+INFO:tensorflow:global step 376: loss = 3.4750 (7.825 sec/step)
+INFO:tensorflow:global step 376: loss = 3.4750 (7.825 sec/step)
+INFO:tensorflow:global step 377: loss = 3.9892 (7.606 sec/step)
+INFO:tensorflow:global step 377: loss = 3.9892 (7.606 sec/step)
+INFO:tensorflow:global step 378: loss = 4.2107 (7.691 sec/step)
+INFO:tensorflow:global step 378: loss = 4.2107 (7.691 sec/step)
+INFO:tensorflow:global step 379: loss = 3.4701 (7.596 sec/step)
+INFO:tensorflow:global step 379: loss = 3.4701 (7.596 sec/step)
+INFO:tensorflow:global step 380: loss = 3.8254 (7.839 sec/step)
+INFO:tensorflow:global step 380: loss = 3.8254 (7.839 sec/step)
+INFO:tensorflow:global step 381: loss = 3.8178 (7.621 sec/step)
+INFO:tensorflow:global step 381: loss = 3.8178 (7.621 sec/step)
+INFO:tensorflow:global step 382: loss = 3.6403 (7.718 sec/step)
+INFO:tensorflow:global step 382: loss = 3.6403 (7.718 sec/step)
+INFO:tensorflow:global step 383: loss = 3.3466 (7.847 sec/step)
+INFO:tensorflow:global step 383: loss = 3.3466 (7.847 sec/step)
+INFO:tensorflow:global step 384: loss = 2.6766 (7.760 sec/step)
+INFO:tensorflow:global step 384: loss = 2.6766 (7.760 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:global step 385: loss = 4.3242 (7.730 sec/step)
+INFO:tensorflow:global step 385: loss = 4.3242 (7.730 sec/step)
+INFO:tensorflow:Recording summary at step 385.
+INFO:tensorflow:Recording summary at step 385.
+INFO:tensorflow:global step 386: loss = 3.5769 (9.438 sec/step)
+INFO:tensorflow:global step 386: loss = 3.5769 (9.438 sec/step)
+INFO:tensorflow:global step 387: loss = 3.1868 (7.655 sec/step)
+INFO:tensorflow:global step 387: loss = 3.1868 (7.655 sec/step)
+INFO:tensorflow:global step 388: loss = 3.9022 (7.860 sec/step)
+INFO:tensorflow:global step 388: loss = 3.9022 (7.860 sec/step)
+INFO:tensorflow:global step 389: loss = 3.9041 (7.600 sec/step)
+INFO:tensorflow:global step 389: loss = 3.9041 (7.600 sec/step)
+INFO:tensorflow:global step 390: loss = 3.5009 (7.784 sec/step)
+INFO:tensorflow:global step 390: loss = 3.5009 (7.784 sec/step)
+INFO:tensorflow:global step 391: loss = 3.4618 (7.627 sec/step)
+INFO:tensorflow:global step 391: loss = 3.4618 (7.627 sec/step)
+INFO:tensorflow:global step 392: loss = 3.8212 (7.871 sec/step)
+INFO:tensorflow:global step 392: loss = 3.8212 (7.871 sec/step)
+INFO:tensorflow:global step 393: loss = 3.4303 (7.854 sec/step)
+INFO:tensorflow:global step 393: loss = 3.4303 (7.854 sec/step)
+INFO:tensorflow:global step 394: loss = 3.3400 (7.659 sec/step)
+INFO:tensorflow:global step 394: loss = 3.3400 (7.659 sec/step)
+INFO:tensorflow:global step 395: loss = 3.4072 (7.723 sec/step)
+INFO:tensorflow:global step 395: loss = 3.4072 (7.723 sec/step)
+INFO:tensorflow:global step 396: loss = 3.9093 (7.623 sec/step)
+INFO:tensorflow:global step 396: loss = 3.9093 (7.623 sec/step)
+INFO:tensorflow:global step 397: loss = 3.0250 (7.901 sec/step)
+INFO:tensorflow:global step 397: loss = 3.0250 (7.901 sec/step)
+INFO:tensorflow:global step 398: loss = 4.0841 (7.700 sec/step)
+INFO:tensorflow:global step 398: loss = 4.0841 (7.700 sec/step)
+INFO:tensorflow:global step 399: loss = 3.7994 (7.629 sec/step)
+INFO:tensorflow:global step 399: loss = 3.7994 (7.629 sec/step)
+INFO:tensorflow:global step 400: loss = 3.6690 (7.685 sec/step)
+INFO:tensorflow:global step 400: loss = 3.6690 (7.685 sec/step)
+INFO:tensorflow:Recording summary at step 400.
+INFO:tensorflow:Recording summary at step 400.
+INFO:tensorflow:global step 401: loss = 3.8639 (9.394 sec/step)
+INFO:tensorflow:global step 401: loss = 3.8639 (9.394 sec/step)
+INFO:tensorflow:global step 402: loss = 4.3428 (7.921 sec/step)
+INFO:tensorflow:global step 402: loss = 4.3428 (7.921 sec/step)
+INFO:tensorflow:global step 403: loss = 3.2578 (7.649 sec/step)
+INFO:tensorflow:global step 403: loss = 3.2578 (7.649 sec/step)
+INFO:tensorflow:global step 404: loss = 3.9276 (7.518 sec/step)
+INFO:tensorflow:global step 404: loss = 3.9276 (7.518 sec/step)
+INFO:tensorflow:global step 405: loss = 3.4138 (7.656 sec/step)
+INFO:tensorflow:global step 405: loss = 3.4138 (7.656 sec/step)
+INFO:tensorflow:global step 406: loss = 3.4164 (7.737 sec/step)
+INFO:tensorflow:global step 406: loss = 3.4164 (7.737 sec/step)
+INFO:tensorflow:global step 407: loss = 4.3912 (7.655 sec/step)
+INFO:tensorflow:global step 407: loss = 4.3912 (7.655 sec/step)
+INFO:tensorflow:global step 408: loss = 3.7207 (7.973 sec/step)
+INFO:tensorflow:global step 408: loss = 3.7207 (7.973 sec/step)
+INFO:tensorflow:global step 409: loss = 3.6160 (7.853 sec/step)
+INFO:tensorflow:global step 409: loss = 3.6160 (7.853 sec/step)
+INFO:tensorflow:global step 410: loss = 4.4170 (7.805 sec/step)
+INFO:tensorflow:global step 410: loss = 4.4170 (7.805 sec/step)
+INFO:tensorflow:global step 411: loss = 3.7447 (7.639 sec/step)
+INFO:tensorflow:global step 411: loss = 3.7447 (7.639 sec/step)
+INFO:tensorflow:global step 412: loss = 4.5257 (7.803 sec/step)
+INFO:tensorflow:global step 412: loss = 4.5257 (7.803 sec/step)
+INFO:tensorflow:global step 413: loss = 3.4364 (7.601 sec/step)
+INFO:tensorflow:global step 413: loss = 3.4364 (7.601 sec/step)
+INFO:tensorflow:global step 414: loss = 4.7956 (7.654 sec/step)
+INFO:tensorflow:global step 414: loss = 4.7956 (7.654 sec/step)
+INFO:tensorflow:global step 415: loss = 3.8767 (7.718 sec/step)
+INFO:tensorflow:global step 415: loss = 3.8767 (7.718 sec/step)
+INFO:tensorflow:Recording summary at step 415.
+INFO:tensorflow:Recording summary at step 415.
+INFO:tensorflow:global step 416: loss = 3.9677 (8.782 sec/step)
+INFO:tensorflow:global step 416: loss = 3.9677 (8.782 sec/step)
+INFO:tensorflow:global step 417: loss = 4.7554 (7.858 sec/step)
+INFO:tensorflow:global step 417: loss = 4.7554 (7.858 sec/step)
+INFO:tensorflow:global step 418: loss = 4.4420 (7.592 sec/step)
+INFO:tensorflow:global step 418: loss = 4.4420 (7.592 sec/step)
+INFO:tensorflow:global step 419: loss = 4.2035 (7.898 sec/step)
+INFO:tensorflow:global step 419: loss = 4.2035 (7.898 sec/step)
+INFO:tensorflow:global step 420: loss = 4.9790 (8.001 sec/step)
+INFO:tensorflow:global step 420: loss = 4.9790 (8.001 sec/step)
+INFO:tensorflow:global step 421: loss = 3.8305 (7.671 sec/step)
+INFO:tensorflow:global step 421: loss = 3.8305 (7.671 sec/step)
+INFO:tensorflow:global step 422: loss = 3.1076 (7.903 sec/step)
+INFO:tensorflow:global step 422: loss = 3.1076 (7.903 sec/step)
+INFO:tensorflow:global step 423: loss = 3.4213 (7.670 sec/step)
+INFO:tensorflow:global step 423: loss = 3.4213 (7.670 sec/step)
+INFO:tensorflow:global step 424: loss = 3.1717 (7.853 sec/step)
+INFO:tensorflow:global step 424: loss = 3.1717 (7.853 sec/step)
+INFO:tensorflow:global step 425: loss = 3.8468 (7.743 sec/step)
+INFO:tensorflow:global step 425: loss = 3.8468 (7.743 sec/step)
+INFO:tensorflow:global step 426: loss = 3.4750 (7.852 sec/step)
+INFO:tensorflow:global step 426: loss = 3.4750 (7.852 sec/step)
+INFO:tensorflow:global step 427: loss = 3.8652 (7.684 sec/step)
+INFO:tensorflow:global step 427: loss = 3.8652 (7.684 sec/step)
+INFO:tensorflow:global step 428: loss = 4.1805 (7.907 sec/step)
+INFO:tensorflow:global step 428: loss = 4.1805 (7.907 sec/step)
+INFO:tensorflow:global step 429: loss = 4.2362 (7.712 sec/step)
+INFO:tensorflow:global step 429: loss = 4.2362 (7.712 sec/step)
+INFO:tensorflow:global step 430: loss = 3.2735 (7.609 sec/step)
+INFO:tensorflow:global step 430: loss = 3.2735 (7.609 sec/step)
+INFO:tensorflow:global step 431: loss = 3.4703 (8.204 sec/step)
+INFO:tensorflow:global step 431: loss = 3.4703 (8.204 sec/step)
+INFO:tensorflow:Recording summary at step 431.
+INFO:tensorflow:Recording summary at step 431.
+INFO:tensorflow:global step 432: loss = 3.6142 (8.416 sec/step)
+INFO:tensorflow:global step 432: loss = 3.6142 (8.416 sec/step)
+INFO:tensorflow:global step 433: loss = 3.8748 (7.620 sec/step)
+INFO:tensorflow:global step 433: loss = 3.8748 (7.620 sec/step)
+INFO:tensorflow:global step 434: loss = 3.4437 (7.660 sec/step)
+INFO:tensorflow:global step 434: loss = 3.4437 (7.660 sec/step)
+INFO:tensorflow:global step 435: loss = 3.3959 (7.873 sec/step)
+INFO:tensorflow:global step 435: loss = 3.3959 (7.873 sec/step)
+INFO:tensorflow:global step 436: loss = 3.1615 (7.608 sec/step)
+INFO:tensorflow:global step 436: loss = 3.1615 (7.608 sec/step)
+INFO:tensorflow:global step 437: loss = 2.8475 (7.566 sec/step)
+INFO:tensorflow:global step 437: loss = 2.8475 (7.566 sec/step)
+INFO:tensorflow:global step 438: loss = 2.6989 (7.715 sec/step)
+INFO:tensorflow:global step 438: loss = 2.6989 (7.715 sec/step)
+INFO:tensorflow:global step 439: loss = 3.5596 (7.797 sec/step)
+INFO:tensorflow:global step 439: loss = 3.5596 (7.797 sec/step)
+INFO:tensorflow:global step 440: loss = 3.3932 (7.846 sec/step)
+INFO:tensorflow:global step 440: loss = 3.3932 (7.846 sec/step)
+INFO:tensorflow:global step 441: loss = 3.5206 (7.792 sec/step)
+INFO:tensorflow:global step 441: loss = 3.5206 (7.792 sec/step)
+INFO:tensorflow:global step 442: loss = 2.8406 (7.631 sec/step)
+INFO:tensorflow:global step 442: loss = 2.8406 (7.631 sec/step)
+INFO:tensorflow:global step 443: loss = 3.3273 (7.607 sec/step)
+INFO:tensorflow:global step 443: loss = 3.3273 (7.607 sec/step)
+INFO:tensorflow:global step 444: loss = 3.2452 (7.761 sec/step)
+INFO:tensorflow:global step 444: loss = 3.2452 (7.761 sec/step)
+INFO:tensorflow:global step 445: loss = 3.0951 (7.592 sec/step)
+INFO:tensorflow:global step 445: loss = 3.0951 (7.592 sec/step)
+INFO:tensorflow:global step 446: loss = 2.7478 (7.702 sec/step)
+INFO:tensorflow:global step 446: loss = 2.7478 (7.702 sec/step)
+INFO:tensorflow:Recording summary at step 446.
+INFO:tensorflow:Recording summary at step 446.
+INFO:tensorflow:global step 447: loss = 2.8644 (8.993 sec/step)
+INFO:tensorflow:global step 447: loss = 2.8644 (8.993 sec/step)
+INFO:tensorflow:global step 448: loss = 3.1391 (7.644 sec/step)
+INFO:tensorflow:global step 448: loss = 3.1391 (7.644 sec/step)
+INFO:tensorflow:global step 449: loss = 3.3174 (7.570 sec/step)
+INFO:tensorflow:global step 449: loss = 3.3174 (7.570 sec/step)
+INFO:tensorflow:global step 450: loss = 3.3802 (7.682 sec/step)
+INFO:tensorflow:global step 450: loss = 3.3802 (7.682 sec/step)
+INFO:tensorflow:global step 451: loss = 3.0042 (7.502 sec/step)
+INFO:tensorflow:global step 451: loss = 3.0042 (7.502 sec/step)
+INFO:tensorflow:global step 452: loss = 3.1117 (7.828 sec/step)
+INFO:tensorflow:global step 452: loss = 3.1117 (7.828 sec/step)
+INFO:tensorflow:global step 453: loss = 3.6657 (7.601 sec/step)
+INFO:tensorflow:global step 453: loss = 3.6657 (7.601 sec/step)
+INFO:tensorflow:global step 454: loss = 3.0457 (7.619 sec/step)
+INFO:tensorflow:global step 454: loss = 3.0457 (7.619 sec/step)
+INFO:tensorflow:global step 455: loss = 3.2746 (7.777 sec/step)
+INFO:tensorflow:global step 455: loss = 3.2746 (7.777 sec/step)
+INFO:tensorflow:global step 456: loss = 3.2870 (7.858 sec/step)
+INFO:tensorflow:global step 456: loss = 3.2870 (7.858 sec/step)
+INFO:tensorflow:global step 457: loss = 3.0219 (7.567 sec/step)
+INFO:tensorflow:global step 457: loss = 3.0219 (7.567 sec/step)
+INFO:tensorflow:global step 458: loss = 4.3031 (7.644 sec/step)
+INFO:tensorflow:global step 458: loss = 4.3031 (7.644 sec/step)
+INFO:tensorflow:global step 459: loss = 2.4629 (7.750 sec/step)
+INFO:tensorflow:global step 459: loss = 2.4629 (7.750 sec/step)
+INFO:tensorflow:global step 460: loss = 3.4960 (7.693 sec/step)
+INFO:tensorflow:global step 460: loss = 3.4960 (7.693 sec/step)
+INFO:tensorflow:global step 461: loss = 3.1004 (7.735 sec/step)
+INFO:tensorflow:global step 461: loss = 3.1004 (7.735 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 461.
+INFO:tensorflow:Recording summary at step 461.
+INFO:tensorflow:global step 462: loss = 5.0496 (8.851 sec/step)
+INFO:tensorflow:global step 462: loss = 5.0496 (8.851 sec/step)
+INFO:tensorflow:global step 463: loss = 3.2513 (7.568 sec/step)
+INFO:tensorflow:global step 463: loss = 3.2513 (7.568 sec/step)
+INFO:tensorflow:global step 464: loss = 3.4516 (7.655 sec/step)
+INFO:tensorflow:global step 464: loss = 3.4516 (7.655 sec/step)
+INFO:tensorflow:global step 465: loss = 3.1255 (7.774 sec/step)
+INFO:tensorflow:global step 465: loss = 3.1255 (7.774 sec/step)
+INFO:tensorflow:global step 466: loss = 3.0726 (7.548 sec/step)
+INFO:tensorflow:global step 466: loss = 3.0726 (7.548 sec/step)
+INFO:tensorflow:global step 467: loss = 3.3888 (7.924 sec/step)
+INFO:tensorflow:global step 467: loss = 3.3888 (7.924 sec/step)
+INFO:tensorflow:global step 468: loss = 2.8815 (7.714 sec/step)
+INFO:tensorflow:global step 468: loss = 2.8815 (7.714 sec/step)
+INFO:tensorflow:global step 469: loss = 4.0387 (7.656 sec/step)
+INFO:tensorflow:global step 469: loss = 4.0387 (7.656 sec/step)
+INFO:tensorflow:global step 470: loss = 3.8203 (7.726 sec/step)
+INFO:tensorflow:global step 470: loss = 3.8203 (7.726 sec/step)
+INFO:tensorflow:global step 471: loss = 2.9279 (7.695 sec/step)
+INFO:tensorflow:global step 471: loss = 2.9279 (7.695 sec/step)
+INFO:tensorflow:global step 472: loss = 3.9579 (7.902 sec/step)
+INFO:tensorflow:global step 472: loss = 3.9579 (7.902 sec/step)
+INFO:tensorflow:global step 473: loss = 3.4758 (7.761 sec/step)
+INFO:tensorflow:global step 473: loss = 3.4758 (7.761 sec/step)
+INFO:tensorflow:global step 474: loss = 3.5869 (7.567 sec/step)
+INFO:tensorflow:global step 474: loss = 3.5869 (7.567 sec/step)
+INFO:tensorflow:global step 475: loss = 3.5170 (7.576 sec/step)
+INFO:tensorflow:global step 475: loss = 3.5170 (7.576 sec/step)
+INFO:tensorflow:global step 476: loss = 2.8502 (7.820 sec/step)
+INFO:tensorflow:global step 476: loss = 2.8502 (7.820 sec/step)
+INFO:tensorflow:global step 477: loss = 3.9530 (7.995 sec/step)
+INFO:tensorflow:global step 477: loss = 3.9530 (7.995 sec/step)
+INFO:tensorflow:Recording summary at step 477.
+INFO:tensorflow:Recording summary at step 477.
+INFO:tensorflow:global step 478: loss = 3.1189 (9.364 sec/step)
+INFO:tensorflow:global step 478: loss = 3.1189 (9.364 sec/step)
+INFO:tensorflow:global step 479: loss = 3.1925 (8.022 sec/step)
+INFO:tensorflow:global step 479: loss = 3.1925 (8.022 sec/step)
+INFO:tensorflow:global step 480: loss = 3.2306 (7.782 sec/step)
+INFO:tensorflow:global step 480: loss = 3.2306 (7.782 sec/step)
+INFO:tensorflow:global step 481: loss = 3.7765 (7.690 sec/step)
+INFO:tensorflow:global step 481: loss = 3.7765 (7.690 sec/step)
+INFO:tensorflow:global step 482: loss = 4.1132 (7.571 sec/step)
+INFO:tensorflow:global step 482: loss = 4.1132 (7.571 sec/step)
+INFO:tensorflow:global step 483: loss = 3.4208 (7.770 sec/step)
+INFO:tensorflow:global step 483: loss = 3.4208 (7.770 sec/step)
+INFO:tensorflow:global step 484: loss = 4.6218 (7.765 sec/step)
+INFO:tensorflow:global step 484: loss = 4.6218 (7.765 sec/step)
+INFO:tensorflow:global step 485: loss = 4.0536 (7.540 sec/step)
+INFO:tensorflow:global step 485: loss = 4.0536 (7.540 sec/step)
+INFO:tensorflow:global step 486: loss = 3.3301 (8.086 sec/step)
+INFO:tensorflow:global step 486: loss = 3.3301 (8.086 sec/step)
+INFO:tensorflow:global step 487: loss = 4.0420 (7.831 sec/step)
+INFO:tensorflow:global step 487: loss = 4.0420 (7.831 sec/step)
+INFO:tensorflow:global step 488: loss = 3.4138 (7.748 sec/step)
+INFO:tensorflow:global step 488: loss = 3.4138 (7.748 sec/step)
+INFO:tensorflow:global step 489: loss = 3.9476 (7.701 sec/step)
+INFO:tensorflow:global step 489: loss = 3.9476 (7.701 sec/step)
+INFO:tensorflow:global step 490: loss = 3.3494 (7.559 sec/step)
+INFO:tensorflow:global step 490: loss = 3.3494 (7.559 sec/step)
+INFO:tensorflow:global step 491: loss = 3.5749 (7.649 sec/step)
+INFO:tensorflow:global step 491: loss = 3.5749 (7.649 sec/step)
+INFO:tensorflow:global step 492: loss = 3.1185 (7.662 sec/step)
+INFO:tensorflow:global step 492: loss = 3.1185 (7.662 sec/step)
+INFO:tensorflow:Recording summary at step 492.
+INFO:tensorflow:Recording summary at step 492.
+INFO:tensorflow:global step 493: loss = 2.9750 (9.374 sec/step)
+INFO:tensorflow:global step 493: loss = 2.9750 (9.374 sec/step)
+INFO:tensorflow:global step 494: loss = 2.7611 (7.907 sec/step)
+INFO:tensorflow:global step 494: loss = 2.7611 (7.907 sec/step)
+INFO:tensorflow:global step 495: loss = 2.9241 (7.954 sec/step)
+INFO:tensorflow:global step 495: loss = 2.9241 (7.954 sec/step)
+INFO:tensorflow:global step 496: loss = 3.5251 (8.172 sec/step)
+INFO:tensorflow:global step 496: loss = 3.5251 (8.172 sec/step)
+INFO:tensorflow:global step 497: loss = 3.0992 (7.899 sec/step)
+INFO:tensorflow:global step 497: loss = 3.0992 (7.899 sec/step)
+INFO:tensorflow:global step 498: loss = 3.0234 (7.548 sec/step)
+INFO:tensorflow:global step 498: loss = 3.0234 (7.548 sec/step)
+INFO:tensorflow:global step 499: loss = 3.7994 (7.582 sec/step)
+INFO:tensorflow:global step 499: loss = 3.7994 (7.582 sec/step)
+INFO:tensorflow:global step 500: loss = 4.8230 (7.614 sec/step)
+INFO:tensorflow:global step 500: loss = 4.8230 (7.614 sec/step)
+INFO:tensorflow:global step 501: loss = 3.3671 (8.069 sec/step)
+INFO:tensorflow:global step 501: loss = 3.3671 (8.069 sec/step)
+INFO:tensorflow:global step 502: loss = 3.0772 (7.665 sec/step)
+INFO:tensorflow:global step 502: loss = 3.0772 (7.665 sec/step)
+INFO:tensorflow:global step 503: loss = 3.3601 (7.613 sec/step)
+INFO:tensorflow:global step 503: loss = 3.3601 (7.613 sec/step)
+INFO:tensorflow:global step 504: loss = 3.6476 (7.680 sec/step)
+INFO:tensorflow:global step 504: loss = 3.6476 (7.680 sec/step)
+INFO:tensorflow:global step 505: loss = 3.8701 (7.706 sec/step)
+INFO:tensorflow:global step 505: loss = 3.8701 (7.706 sec/step)
+INFO:tensorflow:global step 506: loss = 3.5664 (7.946 sec/step)
+INFO:tensorflow:global step 506: loss = 3.5664 (7.946 sec/step)
+INFO:tensorflow:global step 507: loss = 3.3140 (7.671 sec/step)
+INFO:tensorflow:global step 507: loss = 3.3140 (7.671 sec/step)
+INFO:tensorflow:Recording summary at step 507.
+INFO:tensorflow:Recording summary at step 507.
+INFO:tensorflow:global step 508: loss = 2.9989 (8.618 sec/step)
+INFO:tensorflow:global step 508: loss = 2.9989 (8.618 sec/step)
+INFO:tensorflow:global step 509: loss = 4.1193 (7.683 sec/step)
+INFO:tensorflow:global step 509: loss = 4.1193 (7.683 sec/step)
+INFO:tensorflow:global step 510: loss = 3.3993 (7.874 sec/step)
+INFO:tensorflow:global step 510: loss = 3.3993 (7.874 sec/step)
+INFO:tensorflow:global step 511: loss = 4.6847 (7.978 sec/step)
+INFO:tensorflow:global step 511: loss = 4.6847 (7.978 sec/step)
+INFO:tensorflow:global step 512: loss = 3.1331 (8.004 sec/step)
+INFO:tensorflow:global step 512: loss = 3.1331 (8.004 sec/step)
+INFO:tensorflow:global step 513: loss = 2.8895 (7.874 sec/step)
+INFO:tensorflow:global step 513: loss = 2.8895 (7.874 sec/step)
+INFO:tensorflow:global step 514: loss = 3.0322 (7.680 sec/step)
+INFO:tensorflow:global step 514: loss = 3.0322 (7.680 sec/step)
+INFO:tensorflow:global step 515: loss = 3.4670 (7.737 sec/step)
+INFO:tensorflow:global step 515: loss = 3.4670 (7.737 sec/step)
+INFO:tensorflow:global step 516: loss = 2.2316 (7.803 sec/step)
+INFO:tensorflow:global step 516: loss = 2.2316 (7.803 sec/step)
+INFO:tensorflow:global step 517: loss = 2.9922 (7.998 sec/step)
+INFO:tensorflow:global step 517: loss = 2.9922 (7.998 sec/step)
+INFO:tensorflow:global step 518: loss = 3.3043 (7.792 sec/step)
+INFO:tensorflow:global step 518: loss = 3.3043 (7.792 sec/step)
+INFO:tensorflow:global step 519: loss = 3.8084 (7.800 sec/step)
+INFO:tensorflow:global step 519: loss = 3.8084 (7.800 sec/step)
+INFO:tensorflow:global step 520: loss = 3.2801 (8.062 sec/step)
+INFO:tensorflow:global step 520: loss = 3.2801 (8.062 sec/step)
+INFO:tensorflow:global step 521: loss = 2.6669 (7.714 sec/step)
+INFO:tensorflow:global step 521: loss = 2.6669 (7.714 sec/step)
+INFO:tensorflow:global step 522: loss = 2.5753 (7.662 sec/step)
+INFO:tensorflow:global step 522: loss = 2.5753 (7.662 sec/step)
+INFO:tensorflow:global step 523: loss = 3.5170 (8.638 sec/step)
+INFO:tensorflow:global step 523: loss = 3.5170 (8.638 sec/step)
+INFO:tensorflow:Recording summary at step 523.
+INFO:tensorflow:Recording summary at step 523.
+INFO:tensorflow:global step 524: loss = 3.2467 (8.161 sec/step)
+INFO:tensorflow:global step 524: loss = 3.2467 (8.161 sec/step)
+INFO:tensorflow:global step 525: loss = 3.3743 (7.695 sec/step)
+INFO:tensorflow:global step 525: loss = 3.3743 (7.695 sec/step)
+INFO:tensorflow:global step 526: loss = 2.9784 (7.942 sec/step)
+INFO:tensorflow:global step 526: loss = 2.9784 (7.942 sec/step)
+INFO:tensorflow:global step 527: loss = 2.9061 (7.759 sec/step)
+INFO:tensorflow:global step 527: loss = 2.9061 (7.759 sec/step)
+INFO:tensorflow:global step 528: loss = 2.8888 (7.679 sec/step)
+INFO:tensorflow:global step 528: loss = 2.8888 (7.679 sec/step)
+INFO:tensorflow:global step 529: loss = 2.9559 (7.965 sec/step)
+INFO:tensorflow:global step 529: loss = 2.9559 (7.965 sec/step)
+INFO:tensorflow:global step 530: loss = 3.5685 (8.075 sec/step)
+INFO:tensorflow:global step 530: loss = 3.5685 (8.075 sec/step)
+INFO:tensorflow:global step 531: loss = 3.3554 (8.249 sec/step)
+INFO:tensorflow:global step 531: loss = 3.3554 (8.249 sec/step)
+INFO:tensorflow:global step 532: loss = 2.6446 (7.718 sec/step)
+INFO:tensorflow:global step 532: loss = 2.6446 (7.718 sec/step)
+INFO:tensorflow:global step 533: loss = 3.7082 (7.990 sec/step)
+INFO:tensorflow:global step 533: loss = 3.7082 (7.990 sec/step)
+INFO:tensorflow:global step 534: loss = 3.3493 (7.809 sec/step)
+INFO:tensorflow:global step 534: loss = 3.3493 (7.809 sec/step)
+INFO:tensorflow:global step 535: loss = 3.3182 (7.859 sec/step)
+INFO:tensorflow:global step 535: loss = 3.3182 (7.859 sec/step)
+INFO:tensorflow:global step 536: loss = 3.7897 (7.701 sec/step)
+INFO:tensorflow:global step 536: loss = 3.7897 (7.701 sec/step)
+INFO:tensorflow:global step 537: loss = 3.6597 (7.746 sec/step)
+INFO:tensorflow:global step 537: loss = 3.6597 (7.746 sec/step)
+INFO:tensorflow:global step 538: loss = 2.7899 (7.714 sec/step)
+INFO:tensorflow:global step 538: loss = 2.7899 (7.714 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 538.
+INFO:tensorflow:Recording summary at step 538.
+INFO:tensorflow:global step 539: loss = 3.0818 (9.662 sec/step)
+INFO:tensorflow:global step 539: loss = 3.0818 (9.662 sec/step)
+INFO:tensorflow:global step 540: loss = 3.5093 (7.801 sec/step)
+INFO:tensorflow:global step 540: loss = 3.5093 (7.801 sec/step)
+INFO:tensorflow:global step 541: loss = 3.4958 (7.584 sec/step)
+INFO:tensorflow:global step 541: loss = 3.4958 (7.584 sec/step)
+INFO:tensorflow:global step 542: loss = 3.3350 (7.849 sec/step)
+INFO:tensorflow:global step 542: loss = 3.3350 (7.849 sec/step)
+INFO:tensorflow:global step 543: loss = 3.3734 (7.915 sec/step)
+INFO:tensorflow:global step 543: loss = 3.3734 (7.915 sec/step)
+INFO:tensorflow:global step 544: loss = 2.5089 (7.686 sec/step)
+INFO:tensorflow:global step 544: loss = 2.5089 (7.686 sec/step)
+INFO:tensorflow:global step 545: loss = 3.6891 (7.759 sec/step)
+INFO:tensorflow:global step 545: loss = 3.6891 (7.759 sec/step)
+INFO:tensorflow:global step 546: loss = 2.7261 (7.861 sec/step)
+INFO:tensorflow:global step 546: loss = 2.7261 (7.861 sec/step)
+INFO:tensorflow:global step 547: loss = 2.8018 (7.860 sec/step)
+INFO:tensorflow:global step 547: loss = 2.8018 (7.860 sec/step)
+INFO:tensorflow:global step 548: loss = 3.4259 (7.942 sec/step)
+INFO:tensorflow:global step 548: loss = 3.4259 (7.942 sec/step)
+INFO:tensorflow:global step 549: loss = 3.6379 (7.870 sec/step)
+INFO:tensorflow:global step 549: loss = 3.6379 (7.870 sec/step)
+INFO:tensorflow:global step 550: loss = 5.0650 (8.090 sec/step)
+INFO:tensorflow:global step 550: loss = 5.0650 (8.090 sec/step)
+INFO:tensorflow:global step 551: loss = 3.2556 (8.039 sec/step)
+INFO:tensorflow:global step 551: loss = 3.2556 (8.039 sec/step)
+INFO:tensorflow:global step 552: loss = 3.1832 (7.723 sec/step)
+INFO:tensorflow:global step 552: loss = 3.1832 (7.723 sec/step)
+INFO:tensorflow:global step 553: loss = 3.8020 (7.862 sec/step)
+INFO:tensorflow:global step 553: loss = 3.8020 (7.862 sec/step)
+INFO:tensorflow:Recording summary at step 553.
+INFO:tensorflow:Recording summary at step 553.
+INFO:tensorflow:global step 554: loss = 3.5232 (9.476 sec/step)
+INFO:tensorflow:global step 554: loss = 3.5232 (9.476 sec/step)
+INFO:tensorflow:global step 555: loss = 3.5345 (7.866 sec/step)
+INFO:tensorflow:global step 555: loss = 3.5345 (7.866 sec/step)
+INFO:tensorflow:global step 556: loss = 4.5114 (7.748 sec/step)
+INFO:tensorflow:global step 556: loss = 4.5114 (7.748 sec/step)
+INFO:tensorflow:global step 557: loss = 3.5323 (7.818 sec/step)
+INFO:tensorflow:global step 557: loss = 3.5323 (7.818 sec/step)
+INFO:tensorflow:global step 558: loss = 4.3824 (7.973 sec/step)
+INFO:tensorflow:global step 558: loss = 4.3824 (7.973 sec/step)
+INFO:tensorflow:global step 559: loss = 3.5550 (8.208 sec/step)
+INFO:tensorflow:global step 559: loss = 3.5550 (8.208 sec/step)
+INFO:tensorflow:global step 560: loss = 3.1328 (7.674 sec/step)
+INFO:tensorflow:global step 560: loss = 3.1328 (7.674 sec/step)
+INFO:tensorflow:global step 561: loss = 3.5415 (7.875 sec/step)
+INFO:tensorflow:global step 561: loss = 3.5415 (7.875 sec/step)
+INFO:tensorflow:global step 562: loss = 3.3891 (7.613 sec/step)
+INFO:tensorflow:global step 562: loss = 3.3891 (7.613 sec/step)
+INFO:tensorflow:global step 563: loss = 3.4006 (7.536 sec/step)
+INFO:tensorflow:global step 563: loss = 3.4006 (7.536 sec/step)
+INFO:tensorflow:global step 564: loss = 3.4895 (7.874 sec/step)
+INFO:tensorflow:global step 564: loss = 3.4895 (7.874 sec/step)
+INFO:tensorflow:global step 565: loss = 3.1437 (7.945 sec/step)
+INFO:tensorflow:global step 565: loss = 3.1437 (7.945 sec/step)
+INFO:tensorflow:global step 566: loss = 2.9955 (7.764 sec/step)
+INFO:tensorflow:global step 566: loss = 2.9955 (7.764 sec/step)
+INFO:tensorflow:global step 567: loss = 3.4354 (7.644 sec/step)
+INFO:tensorflow:global step 567: loss = 3.4354 (7.644 sec/step)
+INFO:tensorflow:global step 568: loss = 3.4266 (7.899 sec/step)
+INFO:tensorflow:global step 568: loss = 3.4266 (7.899 sec/step)
+INFO:tensorflow:Recording summary at step 568.
+INFO:tensorflow:Recording summary at step 568.
+INFO:tensorflow:global step 569: loss = 3.0465 (9.233 sec/step)
+INFO:tensorflow:global step 569: loss = 3.0465 (9.233 sec/step)
+INFO:tensorflow:global step 570: loss = 3.2936 (7.793 sec/step)
+INFO:tensorflow:global step 570: loss = 3.2936 (7.793 sec/step)
+INFO:tensorflow:global step 571: loss = 3.1630 (7.785 sec/step)
+INFO:tensorflow:global step 571: loss = 3.1630 (7.785 sec/step)
+INFO:tensorflow:global step 572: loss = 4.1770 (8.000 sec/step)
+INFO:tensorflow:global step 572: loss = 4.1770 (8.000 sec/step)
+INFO:tensorflow:global step 573: loss = 2.6928 (7.661 sec/step)
+INFO:tensorflow:global step 573: loss = 2.6928 (7.661 sec/step)
+INFO:tensorflow:global step 574: loss = 3.5015 (7.845 sec/step)
+INFO:tensorflow:global step 574: loss = 3.5015 (7.845 sec/step)
+INFO:tensorflow:global step 575: loss = 2.7394 (7.818 sec/step)
+INFO:tensorflow:global step 575: loss = 2.7394 (7.818 sec/step)
+INFO:tensorflow:global step 576: loss = 3.3047 (7.854 sec/step)
+INFO:tensorflow:global step 576: loss = 3.3047 (7.854 sec/step)
+INFO:tensorflow:global step 577: loss = 3.0588 (7.890 sec/step)
+INFO:tensorflow:global step 577: loss = 3.0588 (7.890 sec/step)
+INFO:tensorflow:global step 578: loss = 3.5178 (7.884 sec/step)
+INFO:tensorflow:global step 578: loss = 3.5178 (7.884 sec/step)
+INFO:tensorflow:global step 579: loss = 4.1607 (7.784 sec/step)
+INFO:tensorflow:global step 579: loss = 4.1607 (7.784 sec/step)
+INFO:tensorflow:global step 580: loss = 3.5993 (7.523 sec/step)
+INFO:tensorflow:global step 580: loss = 3.5993 (7.523 sec/step)
+INFO:tensorflow:global step 581: loss = 4.0385 (7.741 sec/step)
+INFO:tensorflow:global step 581: loss = 4.0385 (7.741 sec/step)
+INFO:tensorflow:global step 582: loss = 3.4016 (7.744 sec/step)
+INFO:tensorflow:global step 582: loss = 3.4016 (7.744 sec/step)
+INFO:tensorflow:global step 583: loss = 3.3319 (7.851 sec/step)
+INFO:tensorflow:global step 583: loss = 3.3319 (7.851 sec/step)
+INFO:tensorflow:Recording summary at step 583.
+INFO:tensorflow:Recording summary at step 583.
+INFO:tensorflow:global step 584: loss = 4.1096 (9.144 sec/step)
+INFO:tensorflow:global step 584: loss = 4.1096 (9.144 sec/step)
+INFO:tensorflow:global step 585: loss = 2.6870 (7.863 sec/step)
+INFO:tensorflow:global step 585: loss = 2.6870 (7.863 sec/step)
+INFO:tensorflow:global step 586: loss = 2.6969 (7.828 sec/step)
+INFO:tensorflow:global step 586: loss = 2.6969 (7.828 sec/step)
+INFO:tensorflow:global step 587: loss = 4.0094 (7.718 sec/step)
+INFO:tensorflow:global step 587: loss = 4.0094 (7.718 sec/step)
+INFO:tensorflow:global step 588: loss = 3.9182 (7.570 sec/step)
+INFO:tensorflow:global step 588: loss = 3.9182 (7.570 sec/step)
+INFO:tensorflow:global step 589: loss = 2.7800 (7.903 sec/step)
+INFO:tensorflow:global step 589: loss = 2.7800 (7.903 sec/step)
+INFO:tensorflow:global step 590: loss = 3.0031 (7.781 sec/step)
+INFO:tensorflow:global step 590: loss = 3.0031 (7.781 sec/step)
+INFO:tensorflow:global step 591: loss = 3.4356 (7.759 sec/step)
+INFO:tensorflow:global step 591: loss = 3.4356 (7.759 sec/step)
+INFO:tensorflow:global step 592: loss = 2.9470 (7.774 sec/step)
+INFO:tensorflow:global step 592: loss = 2.9470 (7.774 sec/step)
+INFO:tensorflow:global step 593: loss = 3.1949 (7.724 sec/step)
+INFO:tensorflow:global step 593: loss = 3.1949 (7.724 sec/step)
+INFO:tensorflow:global step 594: loss = 4.2099 (7.851 sec/step)
+INFO:tensorflow:global step 594: loss = 4.2099 (7.851 sec/step)
+INFO:tensorflow:global step 595: loss = 2.8868 (7.774 sec/step)
+INFO:tensorflow:global step 595: loss = 2.8868 (7.774 sec/step)
+INFO:tensorflow:global step 596: loss = 2.9524 (7.744 sec/step)
+INFO:tensorflow:global step 596: loss = 2.9524 (7.744 sec/step)
+INFO:tensorflow:global step 597: loss = 2.9496 (7.898 sec/step)
+INFO:tensorflow:global step 597: loss = 2.9496 (7.898 sec/step)
+INFO:tensorflow:global step 598: loss = 3.0088 (7.701 sec/step)
+INFO:tensorflow:global step 598: loss = 3.0088 (7.701 sec/step)
+INFO:tensorflow:Recording summary at step 598.
+INFO:tensorflow:Recording summary at step 598.
+INFO:tensorflow:global step 599: loss = 4.1262 (8.877 sec/step)
+INFO:tensorflow:global step 599: loss = 4.1262 (8.877 sec/step)
+INFO:tensorflow:global step 600: loss = 2.4392 (7.922 sec/step)
+INFO:tensorflow:global step 600: loss = 2.4392 (7.922 sec/step)
+INFO:tensorflow:global step 601: loss = 3.1698 (7.834 sec/step)
+INFO:tensorflow:global step 601: loss = 3.1698 (7.834 sec/step)
+INFO:tensorflow:global step 602: loss = 3.0825 (7.732 sec/step)
+INFO:tensorflow:global step 602: loss = 3.0825 (7.732 sec/step)
+INFO:tensorflow:global step 603: loss = 2.6892 (7.811 sec/step)
+INFO:tensorflow:global step 603: loss = 2.6892 (7.811 sec/step)
+INFO:tensorflow:global step 604: loss = 2.2233 (7.972 sec/step)
+INFO:tensorflow:global step 604: loss = 2.2233 (7.972 sec/step)
+INFO:tensorflow:global step 605: loss = 3.1598 (7.789 sec/step)
+INFO:tensorflow:global step 605: loss = 3.1598 (7.789 sec/step)
+INFO:tensorflow:global step 606: loss = 4.0372 (7.760 sec/step)
+INFO:tensorflow:global step 606: loss = 4.0372 (7.760 sec/step)
+INFO:tensorflow:global step 607: loss = 3.5140 (7.924 sec/step)
+INFO:tensorflow:global step 607: loss = 3.5140 (7.924 sec/step)
+INFO:tensorflow:global step 608: loss = 3.2416 (7.794 sec/step)
+INFO:tensorflow:global step 608: loss = 3.2416 (7.794 sec/step)
+INFO:tensorflow:global step 609: loss = 2.9659 (7.720 sec/step)
+INFO:tensorflow:global step 609: loss = 2.9659 (7.720 sec/step)
+INFO:tensorflow:global step 610: loss = 2.8881 (7.591 sec/step)
+INFO:tensorflow:global step 610: loss = 2.8881 (7.591 sec/step)
+INFO:tensorflow:global step 611: loss = 2.7576 (7.716 sec/step)
+INFO:tensorflow:global step 611: loss = 2.7576 (7.716 sec/step)
+INFO:tensorflow:global step 612: loss = 2.8286 (7.626 sec/step)
+INFO:tensorflow:global step 612: loss = 2.8286 (7.626 sec/step)
+INFO:tensorflow:global step 613: loss = 3.7502 (7.995 sec/step)
+INFO:tensorflow:global step 613: loss = 3.7502 (7.995 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:global step 614: loss = 3.3192 (8.803 sec/step)
+INFO:tensorflow:global step 614: loss = 3.3192 (8.803 sec/step)
+INFO:tensorflow:Recording summary at step 614.
+INFO:tensorflow:Recording summary at step 614.
+INFO:tensorflow:global step 615: loss = 3.1637 (8.133 sec/step)
+INFO:tensorflow:global step 615: loss = 3.1637 (8.133 sec/step)
+INFO:tensorflow:global step 616: loss = 2.4050 (7.781 sec/step)
+INFO:tensorflow:global step 616: loss = 2.4050 (7.781 sec/step)
+INFO:tensorflow:global step 617: loss = 3.9235 (7.769 sec/step)
+INFO:tensorflow:global step 617: loss = 3.9235 (7.769 sec/step)
+INFO:tensorflow:global step 618: loss = 3.0049 (8.000 sec/step)
+INFO:tensorflow:global step 618: loss = 3.0049 (8.000 sec/step)
+INFO:tensorflow:global step 619: loss = 3.1600 (7.828 sec/step)
+INFO:tensorflow:global step 619: loss = 3.1600 (7.828 sec/step)
+INFO:tensorflow:global step 620: loss = 4.1838 (7.717 sec/step)
+INFO:tensorflow:global step 620: loss = 4.1838 (7.717 sec/step)
+INFO:tensorflow:global step 621: loss = 2.9991 (7.690 sec/step)
+INFO:tensorflow:global step 621: loss = 2.9991 (7.690 sec/step)
+INFO:tensorflow:global step 622: loss = 3.1240 (8.218 sec/step)
+INFO:tensorflow:global step 622: loss = 3.1240 (8.218 sec/step)
+INFO:tensorflow:global step 623: loss = 2.5070 (7.854 sec/step)
+INFO:tensorflow:global step 623: loss = 2.5070 (7.854 sec/step)
+INFO:tensorflow:global step 624: loss = 3.3099 (7.905 sec/step)
+INFO:tensorflow:global step 624: loss = 3.3099 (7.905 sec/step)
+INFO:tensorflow:global step 625: loss = 3.2030 (7.672 sec/step)
+INFO:tensorflow:global step 625: loss = 3.2030 (7.672 sec/step)
+INFO:tensorflow:global step 626: loss = 3.4861 (7.821 sec/step)
+INFO:tensorflow:global step 626: loss = 3.4861 (7.821 sec/step)
+INFO:tensorflow:global step 627: loss = 3.6268 (7.695 sec/step)
+INFO:tensorflow:global step 627: loss = 3.6268 (7.695 sec/step)
+INFO:tensorflow:global step 628: loss = 3.1225 (7.894 sec/step)
+INFO:tensorflow:global step 628: loss = 3.1225 (7.894 sec/step)
+INFO:tensorflow:global step 629: loss = 3.4262 (7.789 sec/step)
+INFO:tensorflow:global step 629: loss = 3.4262 (7.789 sec/step)
+INFO:tensorflow:Recording summary at step 629.
+INFO:tensorflow:Recording summary at step 629.
+INFO:tensorflow:global step 630: loss = 3.1892 (9.351 sec/step)
+INFO:tensorflow:global step 630: loss = 3.1892 (9.351 sec/step)
+INFO:tensorflow:global step 631: loss = 2.8436 (7.980 sec/step)
+INFO:tensorflow:global step 631: loss = 2.8436 (7.980 sec/step)
+INFO:tensorflow:global step 632: loss = 3.7393 (7.811 sec/step)
+INFO:tensorflow:global step 632: loss = 3.7393 (7.811 sec/step)
+INFO:tensorflow:global step 633: loss = 3.5513 (7.865 sec/step)
+INFO:tensorflow:global step 633: loss = 3.5513 (7.865 sec/step)
+INFO:tensorflow:global step 634: loss = 2.8311 (7.905 sec/step)
+INFO:tensorflow:global step 634: loss = 2.8311 (7.905 sec/step)
+INFO:tensorflow:global step 635: loss = 3.1812 (7.708 sec/step)
+INFO:tensorflow:global step 635: loss = 3.1812 (7.708 sec/step)
+INFO:tensorflow:global step 636: loss = 2.9922 (7.981 sec/step)
+INFO:tensorflow:global step 636: loss = 2.9922 (7.981 sec/step)
+INFO:tensorflow:global step 637: loss = 4.1597 (7.966 sec/step)
+INFO:tensorflow:global step 637: loss = 4.1597 (7.966 sec/step)
+INFO:tensorflow:global step 638: loss = 2.9325 (7.780 sec/step)
+INFO:tensorflow:global step 638: loss = 2.9325 (7.780 sec/step)
+INFO:tensorflow:global step 639: loss = 3.3088 (8.128 sec/step)
+INFO:tensorflow:global step 639: loss = 3.3088 (8.128 sec/step)
+INFO:tensorflow:global step 640: loss = 3.1601 (7.574 sec/step)
+INFO:tensorflow:global step 640: loss = 3.1601 (7.574 sec/step)
+INFO:tensorflow:global step 641: loss = 2.8266 (7.811 sec/step)
+INFO:tensorflow:global step 641: loss = 2.8266 (7.811 sec/step)
+INFO:tensorflow:global step 642: loss = 3.4140 (7.828 sec/step)
+INFO:tensorflow:global step 642: loss = 3.4140 (7.828 sec/step)
+INFO:tensorflow:global step 643: loss = 3.4628 (7.674 sec/step)
+INFO:tensorflow:global step 643: loss = 3.4628 (7.674 sec/step)
+INFO:tensorflow:global step 644: loss = 3.6220 (7.611 sec/step)
+INFO:tensorflow:global step 644: loss = 3.6220 (7.611 sec/step)
+INFO:tensorflow:Recording summary at step 644.
+INFO:tensorflow:Recording summary at step 644.
+INFO:tensorflow:global step 645: loss = 3.4586 (9.292 sec/step)
+INFO:tensorflow:global step 645: loss = 3.4586 (9.292 sec/step)
+INFO:tensorflow:global step 646: loss = 2.9870 (7.887 sec/step)
+INFO:tensorflow:global step 646: loss = 2.9870 (7.887 sec/step)
+INFO:tensorflow:global step 647: loss = 2.8047 (7.762 sec/step)
+INFO:tensorflow:global step 647: loss = 2.8047 (7.762 sec/step)
+INFO:tensorflow:global step 648: loss = 3.1107 (7.959 sec/step)
+INFO:tensorflow:global step 648: loss = 3.1107 (7.959 sec/step)
+INFO:tensorflow:global step 649: loss = 2.9451 (7.825 sec/step)
+INFO:tensorflow:global step 649: loss = 2.9451 (7.825 sec/step)
+INFO:tensorflow:global step 650: loss = 2.9155 (7.917 sec/step)
+INFO:tensorflow:global step 650: loss = 2.9155 (7.917 sec/step)
+INFO:tensorflow:global step 651: loss = 3.1467 (7.492 sec/step)
+INFO:tensorflow:global step 651: loss = 3.1467 (7.492 sec/step)
+INFO:tensorflow:global step 652: loss = 2.4703 (7.708 sec/step)
+INFO:tensorflow:global step 652: loss = 2.4703 (7.708 sec/step)
+INFO:tensorflow:global step 653: loss = 3.4170 (7.850 sec/step)
+INFO:tensorflow:global step 653: loss = 3.4170 (7.850 sec/step)
+INFO:tensorflow:global step 654: loss = 3.3942 (7.538 sec/step)
+INFO:tensorflow:global step 654: loss = 3.3942 (7.538 sec/step)
+INFO:tensorflow:global step 655: loss = 4.3902 (7.728 sec/step)
+INFO:tensorflow:global step 655: loss = 4.3902 (7.728 sec/step)
+INFO:tensorflow:global step 656: loss = 3.1983 (7.683 sec/step)
+INFO:tensorflow:global step 656: loss = 3.1983 (7.683 sec/step)
+INFO:tensorflow:global step 657: loss = 3.1148 (7.946 sec/step)
+INFO:tensorflow:global step 657: loss = 3.1148 (7.946 sec/step)
+INFO:tensorflow:global step 658: loss = 3.2673 (7.600 sec/step)
+INFO:tensorflow:global step 658: loss = 3.2673 (7.600 sec/step)
+INFO:tensorflow:global step 659: loss = 3.5324 (7.471 sec/step)
+INFO:tensorflow:global step 659: loss = 3.5324 (7.471 sec/step)
+INFO:tensorflow:Recording summary at step 659.
+INFO:tensorflow:Recording summary at step 659.
+INFO:tensorflow:global step 660: loss = 2.7258 (8.813 sec/step)
+INFO:tensorflow:global step 660: loss = 2.7258 (8.813 sec/step)
+INFO:tensorflow:global step 661: loss = 3.4639 (7.623 sec/step)
+INFO:tensorflow:global step 661: loss = 3.4639 (7.623 sec/step)
+INFO:tensorflow:global step 662: loss = 3.1727 (7.570 sec/step)
+INFO:tensorflow:global step 662: loss = 3.1727 (7.570 sec/step)
+INFO:tensorflow:global step 663: loss = 3.4520 (7.912 sec/step)
+INFO:tensorflow:global step 663: loss = 3.4520 (7.912 sec/step)
+INFO:tensorflow:global step 664: loss = 2.9104 (7.617 sec/step)
+INFO:tensorflow:global step 664: loss = 2.9104 (7.617 sec/step)
+INFO:tensorflow:global step 665: loss = 2.8698 (7.721 sec/step)
+INFO:tensorflow:global step 665: loss = 2.8698 (7.721 sec/step)
+INFO:tensorflow:global step 666: loss = 3.4287 (7.965 sec/step)
+INFO:tensorflow:global step 666: loss = 3.4287 (7.965 sec/step)
+INFO:tensorflow:global step 667: loss = 2.9265 (7.592 sec/step)
+INFO:tensorflow:global step 667: loss = 2.9265 (7.592 sec/step)
+INFO:tensorflow:global step 668: loss = 2.9081 (7.908 sec/step)
+INFO:tensorflow:global step 668: loss = 2.9081 (7.908 sec/step)
+INFO:tensorflow:global step 669: loss = 4.1551 (7.857 sec/step)
+INFO:tensorflow:global step 669: loss = 4.1551 (7.857 sec/step)
+INFO:tensorflow:global step 670: loss = 4.4897 (7.644 sec/step)
+INFO:tensorflow:global step 670: loss = 4.4897 (7.644 sec/step)
+INFO:tensorflow:global step 671: loss = 4.0381 (7.742 sec/step)
+INFO:tensorflow:global step 671: loss = 4.0381 (7.742 sec/step)
+INFO:tensorflow:global step 672: loss = 2.3799 (7.601 sec/step)
+INFO:tensorflow:global step 672: loss = 2.3799 (7.601 sec/step)
+INFO:tensorflow:global step 673: loss = 2.8483 (7.862 sec/step)
+INFO:tensorflow:global step 673: loss = 2.8483 (7.862 sec/step)
+INFO:tensorflow:global step 674: loss = 3.4476 (8.140 sec/step)
+INFO:tensorflow:global step 674: loss = 3.4476 (8.140 sec/step)
+INFO:tensorflow:Recording summary at step 674.
+INFO:tensorflow:Recording summary at step 674.
+INFO:tensorflow:global step 675: loss = 3.0242 (8.856 sec/step)
+INFO:tensorflow:global step 675: loss = 3.0242 (8.856 sec/step)
+INFO:tensorflow:global step 676: loss = 4.0541 (7.859 sec/step)
+INFO:tensorflow:global step 676: loss = 4.0541 (7.859 sec/step)
+INFO:tensorflow:global step 677: loss = 2.7820 (7.691 sec/step)
+INFO:tensorflow:global step 677: loss = 2.7820 (7.691 sec/step)
+INFO:tensorflow:global step 678: loss = 2.7181 (7.723 sec/step)
+INFO:tensorflow:global step 678: loss = 2.7181 (7.723 sec/step)
+INFO:tensorflow:global step 679: loss = 3.1124 (7.753 sec/step)
+INFO:tensorflow:global step 679: loss = 3.1124 (7.753 sec/step)
+INFO:tensorflow:global step 680: loss = 3.8523 (7.805 sec/step)
+INFO:tensorflow:global step 680: loss = 3.8523 (7.805 sec/step)
+INFO:tensorflow:global step 681: loss = 3.0849 (7.595 sec/step)
+INFO:tensorflow:global step 681: loss = 3.0849 (7.595 sec/step)
+INFO:tensorflow:global step 682: loss = 2.7798 (7.498 sec/step)
+INFO:tensorflow:global step 682: loss = 2.7798 (7.498 sec/step)
+INFO:tensorflow:global step 683: loss = 4.2124 (7.823 sec/step)
+INFO:tensorflow:global step 683: loss = 4.2124 (7.823 sec/step)
+INFO:tensorflow:global step 684: loss = 3.2426 (7.545 sec/step)
+INFO:tensorflow:global step 684: loss = 3.2426 (7.545 sec/step)
+INFO:tensorflow:global step 685: loss = 2.3650 (7.581 sec/step)
+INFO:tensorflow:global step 685: loss = 2.3650 (7.581 sec/step)
+INFO:tensorflow:global step 686: loss = 3.6195 (7.856 sec/step)
+INFO:tensorflow:global step 686: loss = 3.6195 (7.856 sec/step)
+INFO:tensorflow:global step 687: loss = 3.3257 (8.131 sec/step)
+INFO:tensorflow:global step 687: loss = 3.3257 (8.131 sec/step)
+INFO:tensorflow:global step 688: loss = 2.9545 (7.694 sec/step)
+INFO:tensorflow:global step 688: loss = 2.9545 (7.694 sec/step)
+INFO:tensorflow:global step 689: loss = 4.1628 (7.697 sec/step)
+INFO:tensorflow:global step 689: loss = 4.1628 (7.697 sec/step)
+INFO:tensorflow:global step 690: loss = 2.6171 (7.705 sec/step)
+INFO:tensorflow:global step 690: loss = 2.6171 (7.705 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 690.
+INFO:tensorflow:Recording summary at step 690.
+INFO:tensorflow:global step 691: loss = 3.9792 (9.609 sec/step)
+INFO:tensorflow:global step 691: loss = 3.9792 (9.609 sec/step)
+INFO:tensorflow:global step 692: loss = 3.0734 (7.582 sec/step)
+INFO:tensorflow:global step 692: loss = 3.0734 (7.582 sec/step)
+INFO:tensorflow:global step 693: loss = 3.4918 (7.817 sec/step)
+INFO:tensorflow:global step 693: loss = 3.4918 (7.817 sec/step)
+INFO:tensorflow:global step 694: loss = 3.6454 (7.979 sec/step)
+INFO:tensorflow:global step 694: loss = 3.6454 (7.979 sec/step)
+INFO:tensorflow:global step 695: loss = 3.8546 (7.913 sec/step)
+INFO:tensorflow:global step 695: loss = 3.8546 (7.913 sec/step)
+INFO:tensorflow:global step 696: loss = 3.3717 (7.873 sec/step)
+INFO:tensorflow:global step 696: loss = 3.3717 (7.873 sec/step)
+INFO:tensorflow:global step 697: loss = 3.9688 (7.704 sec/step)
+INFO:tensorflow:global step 697: loss = 3.9688 (7.704 sec/step)
+INFO:tensorflow:global step 698: loss = 3.1278 (7.836 sec/step)
+INFO:tensorflow:global step 698: loss = 3.1278 (7.836 sec/step)
+INFO:tensorflow:global step 699: loss = 2.4953 (7.777 sec/step)
+INFO:tensorflow:global step 699: loss = 2.4953 (7.777 sec/step)
+INFO:tensorflow:global step 700: loss = 4.1701 (7.867 sec/step)
+INFO:tensorflow:global step 700: loss = 4.1701 (7.867 sec/step)
+INFO:tensorflow:global step 701: loss = 3.3450 (7.559 sec/step)
+INFO:tensorflow:global step 701: loss = 3.3450 (7.559 sec/step)
+INFO:tensorflow:global step 702: loss = 3.3146 (7.817 sec/step)
+INFO:tensorflow:global step 702: loss = 3.3146 (7.817 sec/step)
+INFO:tensorflow:global step 703: loss = 2.6812 (7.651 sec/step)
+INFO:tensorflow:global step 703: loss = 2.6812 (7.651 sec/step)
+INFO:tensorflow:global step 704: loss = 3.8035 (7.743 sec/step)
+INFO:tensorflow:global step 704: loss = 3.8035 (7.743 sec/step)
+INFO:tensorflow:global step 705: loss = 2.5854 (7.588 sec/step)
+INFO:tensorflow:global step 705: loss = 2.5854 (7.588 sec/step)
+INFO:tensorflow:Recording summary at step 705.
+INFO:tensorflow:Recording summary at step 705.
+INFO:tensorflow:global step 706: loss = 3.4400 (9.168 sec/step)
+INFO:tensorflow:global step 706: loss = 3.4400 (9.168 sec/step)
+INFO:tensorflow:global step 707: loss = 2.9373 (7.760 sec/step)
+INFO:tensorflow:global step 707: loss = 2.9373 (7.760 sec/step)
+INFO:tensorflow:global step 708: loss = 3.3676 (7.484 sec/step)
+INFO:tensorflow:global step 708: loss = 3.3676 (7.484 sec/step)
+INFO:tensorflow:global step 709: loss = 3.0667 (7.769 sec/step)
+INFO:tensorflow:global step 709: loss = 3.0667 (7.769 sec/step)
+INFO:tensorflow:global step 710: loss = 2.7353 (7.668 sec/step)
+INFO:tensorflow:global step 710: loss = 2.7353 (7.668 sec/step)
+INFO:tensorflow:global step 711: loss = 3.6786 (7.803 sec/step)
+INFO:tensorflow:global step 711: loss = 3.6786 (7.803 sec/step)
+INFO:tensorflow:global step 712: loss = 2.9956 (7.827 sec/step)
+INFO:tensorflow:global step 712: loss = 2.9956 (7.827 sec/step)
+INFO:tensorflow:global step 713: loss = 3.0589 (7.683 sec/step)
+INFO:tensorflow:global step 713: loss = 3.0589 (7.683 sec/step)
+INFO:tensorflow:global step 714: loss = 3.8946 (7.927 sec/step)
+INFO:tensorflow:global step 714: loss = 3.8946 (7.927 sec/step)
+INFO:tensorflow:global step 715: loss = 3.9004 (8.014 sec/step)
+INFO:tensorflow:global step 715: loss = 3.9004 (8.014 sec/step)
+INFO:tensorflow:global step 716: loss = 3.4118 (7.672 sec/step)
+INFO:tensorflow:global step 716: loss = 3.4118 (7.672 sec/step)
+INFO:tensorflow:global step 717: loss = 3.9616 (7.894 sec/step)
+INFO:tensorflow:global step 717: loss = 3.9616 (7.894 sec/step)
+INFO:tensorflow:global step 718: loss = 2.6919 (7.656 sec/step)
+INFO:tensorflow:global step 718: loss = 2.6919 (7.656 sec/step)
+INFO:tensorflow:global step 719: loss = 2.7959 (8.060 sec/step)
+INFO:tensorflow:global step 719: loss = 2.7959 (8.060 sec/step)
+INFO:tensorflow:global step 720: loss = 2.9023 (7.691 sec/step)
+INFO:tensorflow:global step 720: loss = 2.9023 (7.691 sec/step)
+INFO:tensorflow:Recording summary at step 720.
+INFO:tensorflow:Recording summary at step 720.
+INFO:tensorflow:global step 721: loss = 2.7558 (8.848 sec/step)
+INFO:tensorflow:global step 721: loss = 2.7558 (8.848 sec/step)
+INFO:tensorflow:global step 722: loss = 2.6449 (7.708 sec/step)
+INFO:tensorflow:global step 722: loss = 2.6449 (7.708 sec/step)
+INFO:tensorflow:global step 723: loss = 2.7777 (7.939 sec/step)
+INFO:tensorflow:global step 723: loss = 2.7777 (7.939 sec/step)
+INFO:tensorflow:global step 724: loss = 3.6835 (7.601 sec/step)
+INFO:tensorflow:global step 724: loss = 3.6835 (7.601 sec/step)
+INFO:tensorflow:global step 725: loss = 2.8077 (7.651 sec/step)
+INFO:tensorflow:global step 725: loss = 2.8077 (7.651 sec/step)
+INFO:tensorflow:global step 726: loss = 2.8555 (7.495 sec/step)
+INFO:tensorflow:global step 726: loss = 2.8555 (7.495 sec/step)
+INFO:tensorflow:global step 727: loss = 4.2597 (7.558 sec/step)
+INFO:tensorflow:global step 727: loss = 4.2597 (7.558 sec/step)
+INFO:tensorflow:global step 728: loss = 2.8046 (8.061 sec/step)
+INFO:tensorflow:global step 728: loss = 2.8046 (8.061 sec/step)
+INFO:tensorflow:global step 729: loss = 3.5907 (7.656 sec/step)
+INFO:tensorflow:global step 729: loss = 3.5907 (7.656 sec/step)
+INFO:tensorflow:global step 730: loss = 2.4674 (7.682 sec/step)
+INFO:tensorflow:global step 730: loss = 2.4674 (7.682 sec/step)
+INFO:tensorflow:global step 731: loss = 2.9843 (7.930 sec/step)
+INFO:tensorflow:global step 731: loss = 2.9843 (7.930 sec/step)
+INFO:tensorflow:global step 732: loss = 3.8594 (7.484 sec/step)
+INFO:tensorflow:global step 732: loss = 3.8594 (7.484 sec/step)
+INFO:tensorflow:global step 733: loss = 2.3159 (7.766 sec/step)
+INFO:tensorflow:global step 733: loss = 2.3159 (7.766 sec/step)
+INFO:tensorflow:global step 734: loss = 4.2338 (7.768 sec/step)
+INFO:tensorflow:global step 734: loss = 4.2338 (7.768 sec/step)
+INFO:tensorflow:global step 735: loss = 4.1444 (7.773 sec/step)
+INFO:tensorflow:global step 735: loss = 4.1444 (7.773 sec/step)
+INFO:tensorflow:global step 736: loss = 2.5965 (7.852 sec/step)
+INFO:tensorflow:global step 736: loss = 2.5965 (7.852 sec/step)
+INFO:tensorflow:Recording summary at step 736.
+INFO:tensorflow:Recording summary at step 736.
+INFO:tensorflow:global step 737: loss = 3.1043 (9.605 sec/step)
+INFO:tensorflow:global step 737: loss = 3.1043 (9.605 sec/step)
+INFO:tensorflow:global step 738: loss = 2.8665 (7.751 sec/step)
+INFO:tensorflow:global step 738: loss = 2.8665 (7.751 sec/step)
+INFO:tensorflow:global step 739: loss = 2.6062 (7.406 sec/step)
+INFO:tensorflow:global step 739: loss = 2.6062 (7.406 sec/step)
+INFO:tensorflow:global step 740: loss = 2.6110 (7.914 sec/step)
+INFO:tensorflow:global step 740: loss = 2.6110 (7.914 sec/step)
+INFO:tensorflow:global step 741: loss = 2.8307 (7.539 sec/step)
+INFO:tensorflow:global step 741: loss = 2.8307 (7.539 sec/step)
+INFO:tensorflow:global step 742: loss = 3.8512 (7.699 sec/step)
+INFO:tensorflow:global step 742: loss = 3.8512 (7.699 sec/step)
+INFO:tensorflow:global step 743: loss = 3.4852 (7.859 sec/step)
+INFO:tensorflow:global step 743: loss = 3.4852 (7.859 sec/step)
+INFO:tensorflow:global step 744: loss = 3.6554 (8.089 sec/step)
+INFO:tensorflow:global step 744: loss = 3.6554 (8.089 sec/step)
+INFO:tensorflow:global step 745: loss = 3.1174 (7.560 sec/step)
+INFO:tensorflow:global step 745: loss = 3.1174 (7.560 sec/step)
+INFO:tensorflow:global step 746: loss = 3.3985 (7.796 sec/step)
+INFO:tensorflow:global step 746: loss = 3.3985 (7.796 sec/step)
+INFO:tensorflow:global step 747: loss = 2.8068 (7.881 sec/step)
+INFO:tensorflow:global step 747: loss = 2.8068 (7.881 sec/step)
+INFO:tensorflow:global step 748: loss = 3.8682 (7.864 sec/step)
+INFO:tensorflow:global step 748: loss = 3.8682 (7.864 sec/step)
+INFO:tensorflow:global step 749: loss = 3.1671 (7.587 sec/step)
+INFO:tensorflow:global step 749: loss = 3.1671 (7.587 sec/step)
+INFO:tensorflow:global step 750: loss = 2.5260 (7.695 sec/step)
+INFO:tensorflow:global step 750: loss = 2.5260 (7.695 sec/step)
+INFO:tensorflow:global step 751: loss = 2.6772 (7.779 sec/step)
+INFO:tensorflow:global step 751: loss = 2.6772 (7.779 sec/step)
+INFO:tensorflow:Recording summary at step 751.
+INFO:tensorflow:Recording summary at step 751.
+INFO:tensorflow:global step 752: loss = 3.7038 (9.408 sec/step)
+INFO:tensorflow:global step 752: loss = 3.7038 (9.408 sec/step)
+INFO:tensorflow:global step 753: loss = 3.2954 (7.935 sec/step)
+INFO:tensorflow:global step 753: loss = 3.2954 (7.935 sec/step)
+INFO:tensorflow:global step 754: loss = 2.8360 (7.556 sec/step)
+INFO:tensorflow:global step 754: loss = 2.8360 (7.556 sec/step)
+INFO:tensorflow:global step 755: loss = 2.3361 (7.703 sec/step)
+INFO:tensorflow:global step 755: loss = 2.3361 (7.703 sec/step)
+INFO:tensorflow:global step 756: loss = 2.6564 (7.908 sec/step)
+INFO:tensorflow:global step 756: loss = 2.6564 (7.908 sec/step)
+INFO:tensorflow:global step 757: loss = 3.4357 (7.831 sec/step)
+INFO:tensorflow:global step 757: loss = 3.4357 (7.831 sec/step)
+INFO:tensorflow:global step 758: loss = 3.7662 (7.680 sec/step)
+INFO:tensorflow:global step 758: loss = 3.7662 (7.680 sec/step)
+INFO:tensorflow:global step 759: loss = 2.9462 (7.707 sec/step)
+INFO:tensorflow:global step 759: loss = 2.9462 (7.707 sec/step)
+INFO:tensorflow:global step 760: loss = 3.0946 (7.929 sec/step)
+INFO:tensorflow:global step 760: loss = 3.0946 (7.929 sec/step)
+INFO:tensorflow:global step 761: loss = 3.7283 (8.052 sec/step)
+INFO:tensorflow:global step 761: loss = 3.7283 (8.052 sec/step)
+INFO:tensorflow:global step 762: loss = 2.8748 (7.780 sec/step)
+INFO:tensorflow:global step 762: loss = 2.8748 (7.780 sec/step)
+INFO:tensorflow:global step 763: loss = 2.9291 (7.829 sec/step)
+INFO:tensorflow:global step 763: loss = 2.9291 (7.829 sec/step)
+INFO:tensorflow:global step 764: loss = 2.9306 (7.714 sec/step)
+INFO:tensorflow:global step 764: loss = 2.9306 (7.714 sec/step)
+INFO:tensorflow:global step 765: loss = 2.7934 (7.897 sec/step)
+INFO:tensorflow:global step 765: loss = 2.7934 (7.897 sec/step)
+INFO:tensorflow:global step 766: loss = 2.5981 (7.661 sec/step)
+INFO:tensorflow:global step 766: loss = 2.5981 (7.661 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 766.
+INFO:tensorflow:Recording summary at step 766.
+INFO:tensorflow:global step 767: loss = 3.1830 (9.888 sec/step)
+INFO:tensorflow:global step 767: loss = 3.1830 (9.888 sec/step)
+INFO:tensorflow:global step 768: loss = 2.8549 (7.711 sec/step)
+INFO:tensorflow:global step 768: loss = 2.8549 (7.711 sec/step)
+INFO:tensorflow:global step 769: loss = 3.5970 (7.483 sec/step)
+INFO:tensorflow:global step 769: loss = 3.5970 (7.483 sec/step)
+INFO:tensorflow:global step 770: loss = 3.0331 (7.668 sec/step)
+INFO:tensorflow:global step 770: loss = 3.0331 (7.668 sec/step)
+INFO:tensorflow:global step 771: loss = 3.3794 (7.848 sec/step)
+INFO:tensorflow:global step 771: loss = 3.3794 (7.848 sec/step)
+INFO:tensorflow:global step 772: loss = 3.3310 (7.476 sec/step)
+INFO:tensorflow:global step 772: loss = 3.3310 (7.476 sec/step)
+INFO:tensorflow:global step 773: loss = 2.2011 (7.600 sec/step)
+INFO:tensorflow:global step 773: loss = 2.2011 (7.600 sec/step)
+INFO:tensorflow:global step 774: loss = 2.9207 (7.701 sec/step)
+INFO:tensorflow:global step 774: loss = 2.9207 (7.701 sec/step)
+INFO:tensorflow:global step 775: loss = 3.4536 (7.962 sec/step)
+INFO:tensorflow:global step 775: loss = 3.4536 (7.962 sec/step)
+INFO:tensorflow:global step 776: loss = 2.9158 (7.729 sec/step)
+INFO:tensorflow:global step 776: loss = 2.9158 (7.729 sec/step)
+INFO:tensorflow:global step 777: loss = 2.8243 (7.601 sec/step)
+INFO:tensorflow:global step 777: loss = 2.8243 (7.601 sec/step)
+INFO:tensorflow:global step 778: loss = 2.4837 (7.728 sec/step)
+INFO:tensorflow:global step 778: loss = 2.4837 (7.728 sec/step)
+INFO:tensorflow:global step 779: loss = 2.5626 (7.843 sec/step)
+INFO:tensorflow:global step 779: loss = 2.5626 (7.843 sec/step)
+INFO:tensorflow:global step 780: loss = 3.0795 (7.729 sec/step)
+INFO:tensorflow:global step 780: loss = 3.0795 (7.729 sec/step)
+INFO:tensorflow:global step 781: loss = 3.0915 (7.936 sec/step)
+INFO:tensorflow:global step 781: loss = 3.0915 (7.936 sec/step)
+INFO:tensorflow:Recording summary at step 781.
+INFO:tensorflow:Recording summary at step 781.
+INFO:tensorflow:global step 782: loss = 3.6305 (8.733 sec/step)
+INFO:tensorflow:global step 782: loss = 3.6305 (8.733 sec/step)
+INFO:tensorflow:global step 783: loss = 2.7618 (7.900 sec/step)
+INFO:tensorflow:global step 783: loss = 2.7618 (7.900 sec/step)
+INFO:tensorflow:global step 784: loss = 3.3912 (8.075 sec/step)
+INFO:tensorflow:global step 784: loss = 3.3912 (8.075 sec/step)
+INFO:tensorflow:global step 785: loss = 2.8596 (7.639 sec/step)
+INFO:tensorflow:global step 785: loss = 2.8596 (7.639 sec/step)
+INFO:tensorflow:global step 786: loss = 2.8081 (7.892 sec/step)
+INFO:tensorflow:global step 786: loss = 2.8081 (7.892 sec/step)
+INFO:tensorflow:global step 787: loss = 2.5025 (7.688 sec/step)
+INFO:tensorflow:global step 787: loss = 2.5025 (7.688 sec/step)
+INFO:tensorflow:global step 788: loss = 2.8764 (7.872 sec/step)
+INFO:tensorflow:global step 788: loss = 2.8764 (7.872 sec/step)
+INFO:tensorflow:global step 789: loss = 2.1770 (7.700 sec/step)
+INFO:tensorflow:global step 789: loss = 2.1770 (7.700 sec/step)
+INFO:tensorflow:global step 790: loss = 3.9345 (7.822 sec/step)
+INFO:tensorflow:global step 790: loss = 3.9345 (7.822 sec/step)
+INFO:tensorflow:global step 791: loss = 2.9479 (7.529 sec/step)
+INFO:tensorflow:global step 791: loss = 2.9479 (7.529 sec/step)
+INFO:tensorflow:global step 792: loss = 2.9288 (7.663 sec/step)
+INFO:tensorflow:global step 792: loss = 2.9288 (7.663 sec/step)
+INFO:tensorflow:global step 793: loss = 3.6590 (7.680 sec/step)
+INFO:tensorflow:global step 793: loss = 3.6590 (7.680 sec/step)
+INFO:tensorflow:global step 794: loss = 2.2395 (7.778 sec/step)
+INFO:tensorflow:global step 794: loss = 2.2395 (7.778 sec/step)
+INFO:tensorflow:global step 795: loss = 3.1132 (7.679 sec/step)
+INFO:tensorflow:global step 795: loss = 3.1132 (7.679 sec/step)
+INFO:tensorflow:global step 796: loss = 3.7994 (7.683 sec/step)
+INFO:tensorflow:global step 796: loss = 3.7994 (7.683 sec/step)
+INFO:tensorflow:global step 797: loss = 2.7989 (7.649 sec/step)
+INFO:tensorflow:global step 797: loss = 2.7989 (7.649 sec/step)
+INFO:tensorflow:Recording summary at step 797.
+INFO:tensorflow:Recording summary at step 797.
+INFO:tensorflow:global step 798: loss = 3.5598 (9.263 sec/step)
+INFO:tensorflow:global step 798: loss = 3.5598 (9.263 sec/step)
+INFO:tensorflow:global step 799: loss = 2.7933 (7.769 sec/step)
+INFO:tensorflow:global step 799: loss = 2.7933 (7.769 sec/step)
+INFO:tensorflow:global step 800: loss = 3.1539 (7.730 sec/step)
+INFO:tensorflow:global step 800: loss = 3.1539 (7.730 sec/step)
+INFO:tensorflow:global step 801: loss = 4.4418 (7.843 sec/step)
+INFO:tensorflow:global step 801: loss = 4.4418 (7.843 sec/step)
+INFO:tensorflow:global step 802: loss = 2.2420 (7.760 sec/step)
+INFO:tensorflow:global step 802: loss = 2.2420 (7.760 sec/step)
+INFO:tensorflow:global step 803: loss = 3.7475 (7.795 sec/step)
+INFO:tensorflow:global step 803: loss = 3.7475 (7.795 sec/step)
+INFO:tensorflow:global step 804: loss = 4.2582 (7.661 sec/step)
+INFO:tensorflow:global step 804: loss = 4.2582 (7.661 sec/step)
+INFO:tensorflow:global step 805: loss = 2.8605 (7.887 sec/step)
+INFO:tensorflow:global step 805: loss = 2.8605 (7.887 sec/step)
+INFO:tensorflow:global step 806: loss = 4.3952 (7.713 sec/step)
+INFO:tensorflow:global step 806: loss = 4.3952 (7.713 sec/step)
+INFO:tensorflow:global step 807: loss = 4.1275 (7.751 sec/step)
+INFO:tensorflow:global step 807: loss = 4.1275 (7.751 sec/step)
+INFO:tensorflow:global step 808: loss = 3.0462 (7.569 sec/step)
+INFO:tensorflow:global step 808: loss = 3.0462 (7.569 sec/step)
+INFO:tensorflow:global step 809: loss = 3.5688 (7.751 sec/step)
+INFO:tensorflow:global step 809: loss = 3.5688 (7.751 sec/step)
+INFO:tensorflow:global step 810: loss = 3.0226 (7.839 sec/step)
+INFO:tensorflow:global step 810: loss = 3.0226 (7.839 sec/step)
+INFO:tensorflow:global step 811: loss = 2.3411 (7.748 sec/step)
+INFO:tensorflow:global step 811: loss = 2.3411 (7.748 sec/step)
+INFO:tensorflow:global step 812: loss = 3.0264 (7.821 sec/step)
+INFO:tensorflow:global step 812: loss = 3.0264 (7.821 sec/step)
+INFO:tensorflow:Recording summary at step 812.
+INFO:tensorflow:Recording summary at step 812.
+INFO:tensorflow:global step 813: loss = 2.6476 (9.166 sec/step)
+INFO:tensorflow:global step 813: loss = 2.6476 (9.166 sec/step)
+INFO:tensorflow:global step 814: loss = 3.8975 (7.793 sec/step)
+INFO:tensorflow:global step 814: loss = 3.8975 (7.793 sec/step)
+INFO:tensorflow:global step 815: loss = 3.2496 (7.742 sec/step)
+INFO:tensorflow:global step 815: loss = 3.2496 (7.742 sec/step)
+INFO:tensorflow:global step 816: loss = 3.2981 (7.743 sec/step)
+INFO:tensorflow:global step 816: loss = 3.2981 (7.743 sec/step)
+INFO:tensorflow:global step 817: loss = 4.1160 (7.593 sec/step)
+INFO:tensorflow:global step 817: loss = 4.1160 (7.593 sec/step)
+INFO:tensorflow:global step 818: loss = 2.2618 (7.768 sec/step)
+INFO:tensorflow:global step 818: loss = 2.2618 (7.768 sec/step)
+INFO:tensorflow:global step 819: loss = 3.2463 (7.518 sec/step)
+INFO:tensorflow:global step 819: loss = 3.2463 (7.518 sec/step)
+INFO:tensorflow:global step 820: loss = 3.3293 (8.006 sec/step)
+INFO:tensorflow:global step 820: loss = 3.3293 (8.006 sec/step)
+INFO:tensorflow:global step 821: loss = 3.3376 (7.763 sec/step)
+INFO:tensorflow:global step 821: loss = 3.3376 (7.763 sec/step)
+INFO:tensorflow:global step 822: loss = 3.2453 (7.754 sec/step)
+INFO:tensorflow:global step 822: loss = 3.2453 (7.754 sec/step)
+INFO:tensorflow:global step 823: loss = 2.7226 (7.582 sec/step)
+INFO:tensorflow:global step 823: loss = 2.7226 (7.582 sec/step)
+INFO:tensorflow:global step 824: loss = 3.9890 (7.714 sec/step)
+INFO:tensorflow:global step 824: loss = 3.9890 (7.714 sec/step)
+INFO:tensorflow:global step 825: loss = 3.3518 (7.577 sec/step)
+INFO:tensorflow:global step 825: loss = 3.3518 (7.577 sec/step)
+INFO:tensorflow:global step 826: loss = 2.7579 (8.001 sec/step)
+INFO:tensorflow:global step 826: loss = 2.7579 (8.001 sec/step)
+INFO:tensorflow:global step 827: loss = 2.6662 (7.649 sec/step)
+INFO:tensorflow:global step 827: loss = 2.6662 (7.649 sec/step)
+INFO:tensorflow:Recording summary at step 827.
+INFO:tensorflow:Recording summary at step 827.
+INFO:tensorflow:global step 828: loss = 3.1202 (8.498 sec/step)
+INFO:tensorflow:global step 828: loss = 3.1202 (8.498 sec/step)
+INFO:tensorflow:global step 829: loss = 3.9030 (7.761 sec/step)
+INFO:tensorflow:global step 829: loss = 3.9030 (7.761 sec/step)
+INFO:tensorflow:global step 830: loss = 3.1352 (7.849 sec/step)
+INFO:tensorflow:global step 830: loss = 3.1352 (7.849 sec/step)
+INFO:tensorflow:global step 831: loss = 3.3879 (7.647 sec/step)
+INFO:tensorflow:global step 831: loss = 3.3879 (7.647 sec/step)
+INFO:tensorflow:global step 832: loss = 2.6159 (7.926 sec/step)
+INFO:tensorflow:global step 832: loss = 2.6159 (7.926 sec/step)
+INFO:tensorflow:global step 833: loss = 3.7303 (7.916 sec/step)
+INFO:tensorflow:global step 833: loss = 3.7303 (7.916 sec/step)
+INFO:tensorflow:global step 834: loss = 3.8597 (7.688 sec/step)
+INFO:tensorflow:global step 834: loss = 3.8597 (7.688 sec/step)
+INFO:tensorflow:global step 835: loss = 3.7004 (7.583 sec/step)
+INFO:tensorflow:global step 835: loss = 3.7004 (7.583 sec/step)
+INFO:tensorflow:global step 836: loss = 3.3353 (7.972 sec/step)
+INFO:tensorflow:global step 836: loss = 3.3353 (7.972 sec/step)
+INFO:tensorflow:global step 837: loss = 3.4043 (7.960 sec/step)
+INFO:tensorflow:global step 837: loss = 3.4043 (7.960 sec/step)
+INFO:tensorflow:global step 838: loss = 2.9548 (7.895 sec/step)
+INFO:tensorflow:global step 838: loss = 2.9548 (7.895 sec/step)
+INFO:tensorflow:global step 839: loss = 2.7561 (7.648 sec/step)
+INFO:tensorflow:global step 839: loss = 2.7561 (7.648 sec/step)
+INFO:tensorflow:global step 840: loss = 3.4396 (7.727 sec/step)
+INFO:tensorflow:global step 840: loss = 3.4396 (7.727 sec/step)
+INFO:tensorflow:global step 841: loss = 3.2468 (8.012 sec/step)
+INFO:tensorflow:global step 841: loss = 3.2468 (8.012 sec/step)
+INFO:tensorflow:global step 842: loss = 3.0659 (7.777 sec/step)
+INFO:tensorflow:global step 842: loss = 3.0659 (7.777 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:global step 843: loss = 2.6553 (7.823 sec/step)
+INFO:tensorflow:global step 843: loss = 2.6553 (7.823 sec/step)
+INFO:tensorflow:Recording summary at step 843.
+INFO:tensorflow:Recording summary at step 843.
+INFO:tensorflow:global step 844: loss = 3.1795 (9.244 sec/step)
+INFO:tensorflow:global step 844: loss = 3.1795 (9.244 sec/step)
+INFO:tensorflow:global step 845: loss = 2.8892 (7.861 sec/step)
+INFO:tensorflow:global step 845: loss = 2.8892 (7.861 sec/step)
+INFO:tensorflow:global step 846: loss = 2.7252 (7.601 sec/step)
+INFO:tensorflow:global step 846: loss = 2.7252 (7.601 sec/step)
+INFO:tensorflow:global step 847: loss = 3.0405 (7.681 sec/step)
+INFO:tensorflow:global step 847: loss = 3.0405 (7.681 sec/step)
+INFO:tensorflow:global step 848: loss = 2.4330 (7.683 sec/step)
+INFO:tensorflow:global step 848: loss = 2.4330 (7.683 sec/step)
+INFO:tensorflow:global step 849: loss = 2.4983 (7.866 sec/step)
+INFO:tensorflow:global step 849: loss = 2.4983 (7.866 sec/step)
+INFO:tensorflow:global step 850: loss = 3.2853 (7.793 sec/step)
+INFO:tensorflow:global step 850: loss = 3.2853 (7.793 sec/step)
+INFO:tensorflow:global step 851: loss = 3.2833 (7.936 sec/step)
+INFO:tensorflow:global step 851: loss = 3.2833 (7.936 sec/step)
+INFO:tensorflow:global step 852: loss = 3.0753 (7.795 sec/step)
+INFO:tensorflow:global step 852: loss = 3.0753 (7.795 sec/step)
+INFO:tensorflow:global step 853: loss = 3.3232 (7.761 sec/step)
+INFO:tensorflow:global step 853: loss = 3.3232 (7.761 sec/step)
+INFO:tensorflow:global step 854: loss = 3.4698 (7.807 sec/step)
+INFO:tensorflow:global step 854: loss = 3.4698 (7.807 sec/step)
+INFO:tensorflow:global step 855: loss = 3.5689 (7.738 sec/step)
+INFO:tensorflow:global step 855: loss = 3.5689 (7.738 sec/step)
+INFO:tensorflow:global step 856: loss = 3.3905 (7.892 sec/step)
+INFO:tensorflow:global step 856: loss = 3.3905 (7.892 sec/step)
+INFO:tensorflow:global step 857: loss = 2.9106 (7.748 sec/step)
+INFO:tensorflow:global step 857: loss = 2.9106 (7.748 sec/step)
+INFO:tensorflow:global step 858: loss = 3.4545 (7.679 sec/step)
+INFO:tensorflow:global step 858: loss = 3.4545 (7.679 sec/step)
+INFO:tensorflow:Recording summary at step 858.
+INFO:tensorflow:Recording summary at step 858.
+INFO:tensorflow:global step 859: loss = 3.1325 (9.272 sec/step)
+INFO:tensorflow:global step 859: loss = 3.1325 (9.272 sec/step)
+INFO:tensorflow:global step 860: loss = 3.3993 (7.837 sec/step)
+INFO:tensorflow:global step 860: loss = 3.3993 (7.837 sec/step)
+INFO:tensorflow:global step 861: loss = 2.2753 (7.813 sec/step)
+INFO:tensorflow:global step 861: loss = 2.2753 (7.813 sec/step)
+INFO:tensorflow:global step 862: loss = 3.5622 (7.665 sec/step)
+INFO:tensorflow:global step 862: loss = 3.5622 (7.665 sec/step)
+INFO:tensorflow:global step 863: loss = 2.6128 (7.577 sec/step)
+INFO:tensorflow:global step 863: loss = 2.6128 (7.577 sec/step)
+INFO:tensorflow:global step 864: loss = 2.7888 (7.801 sec/step)
+INFO:tensorflow:global step 864: loss = 2.7888 (7.801 sec/step)
+INFO:tensorflow:global step 865: loss = 3.4446 (7.739 sec/step)
+INFO:tensorflow:global step 865: loss = 3.4446 (7.739 sec/step)
+INFO:tensorflow:global step 866: loss = 2.8131 (7.749 sec/step)
+INFO:tensorflow:global step 866: loss = 2.8131 (7.749 sec/step)
+INFO:tensorflow:global step 867: loss = 3.9096 (7.831 sec/step)
+INFO:tensorflow:global step 867: loss = 3.9096 (7.831 sec/step)
+INFO:tensorflow:global step 868: loss = 3.1254 (7.674 sec/step)
+INFO:tensorflow:global step 868: loss = 3.1254 (7.674 sec/step)
+INFO:tensorflow:global step 869: loss = 3.1157 (7.631 sec/step)
+INFO:tensorflow:global step 869: loss = 3.1157 (7.631 sec/step)
+INFO:tensorflow:global step 870: loss = 2.9523 (7.886 sec/step)
+INFO:tensorflow:global step 870: loss = 2.9523 (7.886 sec/step)
+INFO:tensorflow:global step 871: loss = 3.0297 (7.859 sec/step)
+INFO:tensorflow:global step 871: loss = 3.0297 (7.859 sec/step)
+INFO:tensorflow:global step 872: loss = 2.7886 (8.113 sec/step)
+INFO:tensorflow:global step 872: loss = 2.7886 (8.113 sec/step)
+INFO:tensorflow:global step 873: loss = 2.9664 (7.704 sec/step)
+INFO:tensorflow:global step 873: loss = 2.9664 (7.704 sec/step)
+INFO:tensorflow:Recording summary at step 873.
+INFO:tensorflow:Recording summary at step 873.
+INFO:tensorflow:global step 874: loss = 2.9477 (8.969 sec/step)
+INFO:tensorflow:global step 874: loss = 2.9477 (8.969 sec/step)
+INFO:tensorflow:global step 875: loss = 2.8515 (7.838 sec/step)
+INFO:tensorflow:global step 875: loss = 2.8515 (7.838 sec/step)
+INFO:tensorflow:global step 876: loss = 2.7810 (7.631 sec/step)
+INFO:tensorflow:global step 876: loss = 2.7810 (7.631 sec/step)
+INFO:tensorflow:global step 877: loss = 2.5347 (7.746 sec/step)
+INFO:tensorflow:global step 877: loss = 2.5347 (7.746 sec/step)
+INFO:tensorflow:global step 878: loss = 3.2343 (7.690 sec/step)
+INFO:tensorflow:global step 878: loss = 3.2343 (7.690 sec/step)
+INFO:tensorflow:global step 879: loss = 2.3889 (7.670 sec/step)
+INFO:tensorflow:global step 879: loss = 2.3889 (7.670 sec/step)
+INFO:tensorflow:global step 880: loss = 2.2390 (7.827 sec/step)
+INFO:tensorflow:global step 880: loss = 2.2390 (7.827 sec/step)
+INFO:tensorflow:global step 881: loss = 4.8103 (7.684 sec/step)
+INFO:tensorflow:global step 881: loss = 4.8103 (7.684 sec/step)
+INFO:tensorflow:global step 882: loss = 2.7939 (7.780 sec/step)
+INFO:tensorflow:global step 882: loss = 2.7939 (7.780 sec/step)
+INFO:tensorflow:global step 883: loss = 2.5053 (7.861 sec/step)
+INFO:tensorflow:global step 883: loss = 2.5053 (7.861 sec/step)
+INFO:tensorflow:global step 884: loss = 4.3691 (7.684 sec/step)
+INFO:tensorflow:global step 884: loss = 4.3691 (7.684 sec/step)
+INFO:tensorflow:global step 885: loss = 2.4062 (7.647 sec/step)
+INFO:tensorflow:global step 885: loss = 2.4062 (7.647 sec/step)
+INFO:tensorflow:global step 886: loss = 2.4734 (7.531 sec/step)
+INFO:tensorflow:global step 886: loss = 2.4734 (7.531 sec/step)
+INFO:tensorflow:global step 887: loss = 2.6241 (7.791 sec/step)
+INFO:tensorflow:global step 887: loss = 2.6241 (7.791 sec/step)
+INFO:tensorflow:global step 888: loss = 2.9385 (7.625 sec/step)
+INFO:tensorflow:global step 888: loss = 2.9385 (7.625 sec/step)
+INFO:tensorflow:global step 889: loss = 3.2454 (8.315 sec/step)
+INFO:tensorflow:global step 889: loss = 3.2454 (8.315 sec/step)
+INFO:tensorflow:Recording summary at step 889.
+INFO:tensorflow:Recording summary at step 889.
+INFO:tensorflow:global step 890: loss = 2.7769 (8.161 sec/step)
+INFO:tensorflow:global step 890: loss = 2.7769 (8.161 sec/step)
+INFO:tensorflow:global step 891: loss = 2.5671 (7.723 sec/step)
+INFO:tensorflow:global step 891: loss = 2.5671 (7.723 sec/step)
+INFO:tensorflow:global step 892: loss = 2.9209 (7.641 sec/step)
+INFO:tensorflow:global step 892: loss = 2.9209 (7.641 sec/step)
+INFO:tensorflow:global step 893: loss = 2.9040 (7.810 sec/step)
+INFO:tensorflow:global step 893: loss = 2.9040 (7.810 sec/step)
+INFO:tensorflow:global step 894: loss = 3.2943 (7.627 sec/step)
+INFO:tensorflow:global step 894: loss = 3.2943 (7.627 sec/step)
+INFO:tensorflow:global step 895: loss = 3.3536 (7.752 sec/step)
+INFO:tensorflow:global step 895: loss = 3.3536 (7.752 sec/step)
+INFO:tensorflow:global step 896: loss = 2.4362 (7.773 sec/step)
+INFO:tensorflow:global step 896: loss = 2.4362 (7.773 sec/step)
+INFO:tensorflow:global step 897: loss = 3.0389 (7.699 sec/step)
+INFO:tensorflow:global step 897: loss = 3.0389 (7.699 sec/step)
+INFO:tensorflow:global step 898: loss = 3.2881 (7.497 sec/step)
+INFO:tensorflow:global step 898: loss = 3.2881 (7.497 sec/step)
+INFO:tensorflow:global step 899: loss = 2.9169 (7.967 sec/step)
+INFO:tensorflow:global step 899: loss = 2.9169 (7.967 sec/step)
+INFO:tensorflow:global step 900: loss = 4.1336 (7.963 sec/step)
+INFO:tensorflow:global step 900: loss = 4.1336 (7.963 sec/step)
+INFO:tensorflow:global step 901: loss = 2.9584 (7.678 sec/step)
+INFO:tensorflow:global step 901: loss = 2.9584 (7.678 sec/step)
+INFO:tensorflow:global step 902: loss = 3.7158 (7.814 sec/step)
+INFO:tensorflow:global step 902: loss = 3.7158 (7.814 sec/step)
+INFO:tensorflow:global step 903: loss = 3.0539 (7.678 sec/step)
+INFO:tensorflow:global step 903: loss = 3.0539 (7.678 sec/step)
+INFO:tensorflow:global step 904: loss = 2.5368 (7.673 sec/step)
+INFO:tensorflow:global step 904: loss = 2.5368 (7.673 sec/step)
+INFO:tensorflow:Recording summary at step 904.
+INFO:tensorflow:Recording summary at step 904.
+INFO:tensorflow:global step 905: loss = 2.4228 (9.148 sec/step)
+INFO:tensorflow:global step 905: loss = 2.4228 (9.148 sec/step)
+INFO:tensorflow:global step 906: loss = 2.4645 (7.669 sec/step)
+INFO:tensorflow:global step 906: loss = 2.4645 (7.669 sec/step)
+INFO:tensorflow:global step 907: loss = 3.3412 (7.550 sec/step)
+INFO:tensorflow:global step 907: loss = 3.3412 (7.550 sec/step)
+INFO:tensorflow:global step 908: loss = 3.2673 (7.642 sec/step)
+INFO:tensorflow:global step 908: loss = 3.2673 (7.642 sec/step)
+INFO:tensorflow:global step 909: loss = 3.8124 (7.781 sec/step)
+INFO:tensorflow:global step 909: loss = 3.8124 (7.781 sec/step)
+INFO:tensorflow:global step 910: loss = 3.1650 (7.805 sec/step)
+INFO:tensorflow:global step 910: loss = 3.1650 (7.805 sec/step)
+INFO:tensorflow:global step 911: loss = 3.0754 (7.951 sec/step)
+INFO:tensorflow:global step 911: loss = 3.0754 (7.951 sec/step)
+INFO:tensorflow:global step 912: loss = 3.2415 (7.772 sec/step)
+INFO:tensorflow:global step 912: loss = 3.2415 (7.772 sec/step)
+INFO:tensorflow:global step 913: loss = 3.8818 (7.952 sec/step)
+INFO:tensorflow:global step 913: loss = 3.8818 (7.952 sec/step)
+INFO:tensorflow:global step 914: loss = 3.2268 (8.000 sec/step)
+INFO:tensorflow:global step 914: loss = 3.2268 (8.000 sec/step)
+INFO:tensorflow:global step 915: loss = 3.2178 (7.799 sec/step)
+INFO:tensorflow:global step 915: loss = 3.2178 (7.799 sec/step)
+INFO:tensorflow:global step 916: loss = 4.2309 (7.767 sec/step)
+INFO:tensorflow:global step 916: loss = 4.2309 (7.767 sec/step)
+INFO:tensorflow:global step 917: loss = 3.2775 (7.720 sec/step)
+INFO:tensorflow:global step 917: loss = 3.2775 (7.720 sec/step)
+INFO:tensorflow:global step 918: loss = 2.8397 (7.974 sec/step)
+INFO:tensorflow:global step 918: loss = 2.8397 (7.974 sec/step)
+INFO:tensorflow:global step 919: loss = 3.5382 (7.837 sec/step)
+INFO:tensorflow:global step 919: loss = 3.5382 (7.837 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 919.
+INFO:tensorflow:Recording summary at step 919.
+INFO:tensorflow:global step 920: loss = 3.4378 (9.069 sec/step)
+INFO:tensorflow:global step 920: loss = 3.4378 (9.069 sec/step)
+INFO:tensorflow:global step 921: loss = 3.2686 (7.755 sec/step)
+INFO:tensorflow:global step 921: loss = 3.2686 (7.755 sec/step)
+INFO:tensorflow:global step 922: loss = 3.5399 (7.756 sec/step)
+INFO:tensorflow:global step 922: loss = 3.5399 (7.756 sec/step)
+INFO:tensorflow:global step 923: loss = 3.2904 (7.826 sec/step)
+INFO:tensorflow:global step 923: loss = 3.2904 (7.826 sec/step)
+INFO:tensorflow:global step 924: loss = 3.6240 (7.760 sec/step)
+INFO:tensorflow:global step 924: loss = 3.6240 (7.760 sec/step)
+INFO:tensorflow:global step 925: loss = 3.2708 (7.982 sec/step)
+INFO:tensorflow:global step 925: loss = 3.2708 (7.982 sec/step)
+INFO:tensorflow:global step 926: loss = 2.7644 (7.735 sec/step)
+INFO:tensorflow:global step 926: loss = 2.7644 (7.735 sec/step)
+INFO:tensorflow:global step 927: loss = 2.6295 (7.692 sec/step)
+INFO:tensorflow:global step 927: loss = 2.6295 (7.692 sec/step)
+INFO:tensorflow:global step 928: loss = 3.1109 (7.844 sec/step)
+INFO:tensorflow:global step 928: loss = 3.1109 (7.844 sec/step)
+INFO:tensorflow:global step 929: loss = 3.0825 (7.903 sec/step)
+INFO:tensorflow:global step 929: loss = 3.0825 (7.903 sec/step)
+INFO:tensorflow:global step 930: loss = 3.4657 (7.892 sec/step)
+INFO:tensorflow:global step 930: loss = 3.4657 (7.892 sec/step)
+INFO:tensorflow:global step 931: loss = 2.3347 (7.557 sec/step)
+INFO:tensorflow:global step 931: loss = 2.3347 (7.557 sec/step)
+INFO:tensorflow:global step 932: loss = 2.8497 (7.785 sec/step)
+INFO:tensorflow:global step 932: loss = 2.8497 (7.785 sec/step)
+INFO:tensorflow:global step 933: loss = 3.3784 (7.622 sec/step)
+INFO:tensorflow:global step 933: loss = 3.3784 (7.622 sec/step)
+INFO:tensorflow:global step 934: loss = 3.3252 (7.725 sec/step)
+INFO:tensorflow:global step 934: loss = 3.3252 (7.725 sec/step)
+INFO:tensorflow:Recording summary at step 934.
+INFO:tensorflow:Recording summary at step 934.
+INFO:tensorflow:global step 935: loss = 2.5684 (8.610 sec/step)
+INFO:tensorflow:global step 935: loss = 2.5684 (8.610 sec/step)
+INFO:tensorflow:global step 936: loss = 3.2046 (7.822 sec/step)
+INFO:tensorflow:global step 936: loss = 3.2046 (7.822 sec/step)
+INFO:tensorflow:global step 937: loss = 3.0153 (7.734 sec/step)
+INFO:tensorflow:global step 937: loss = 3.0153 (7.734 sec/step)
+INFO:tensorflow:global step 938: loss = 2.4540 (7.832 sec/step)
+INFO:tensorflow:global step 938: loss = 2.4540 (7.832 sec/step)
+INFO:tensorflow:global step 939: loss = 3.5237 (7.982 sec/step)
+INFO:tensorflow:global step 939: loss = 3.5237 (7.982 sec/step)
+INFO:tensorflow:global step 940: loss = 3.0027 (7.986 sec/step)
+INFO:tensorflow:global step 940: loss = 3.0027 (7.986 sec/step)
+INFO:tensorflow:global step 941: loss = 4.3873 (7.752 sec/step)
+INFO:tensorflow:global step 941: loss = 4.3873 (7.752 sec/step)
+INFO:tensorflow:global step 942: loss = 2.4738 (7.781 sec/step)
+INFO:tensorflow:global step 942: loss = 2.4738 (7.781 sec/step)
+INFO:tensorflow:global step 943: loss = 3.6115 (7.839 sec/step)
+INFO:tensorflow:global step 943: loss = 3.6115 (7.839 sec/step)
+INFO:tensorflow:global step 944: loss = 3.5169 (7.886 sec/step)
+INFO:tensorflow:global step 944: loss = 3.5169 (7.886 sec/step)
+INFO:tensorflow:global step 945: loss = 2.8140 (7.622 sec/step)
+INFO:tensorflow:global step 945: loss = 2.8140 (7.622 sec/step)
+INFO:tensorflow:global step 946: loss = 2.9536 (7.774 sec/step)
+INFO:tensorflow:global step 946: loss = 2.9536 (7.774 sec/step)
+INFO:tensorflow:global step 947: loss = 3.2557 (7.727 sec/step)
+INFO:tensorflow:global step 947: loss = 3.2557 (7.727 sec/step)
+INFO:tensorflow:global step 948: loss = 3.8128 (7.617 sec/step)
+INFO:tensorflow:global step 948: loss = 3.8128 (7.617 sec/step)
+INFO:tensorflow:global step 949: loss = 2.4274 (7.774 sec/step)
+INFO:tensorflow:global step 949: loss = 2.4274 (7.774 sec/step)
+INFO:tensorflow:global step 950: loss = 2.4508 (8.193 sec/step)
+INFO:tensorflow:global step 950: loss = 2.4508 (8.193 sec/step)
+INFO:tensorflow:Recording summary at step 950.
+INFO:tensorflow:Recording summary at step 950.
+INFO:tensorflow:global step 951: loss = 3.0515 (8.858 sec/step)
+INFO:tensorflow:global step 951: loss = 3.0515 (8.858 sec/step)
+INFO:tensorflow:global step 952: loss = 2.6660 (7.888 sec/step)
+INFO:tensorflow:global step 952: loss = 2.6660 (7.888 sec/step)
+INFO:tensorflow:global step 953: loss = 2.6270 (7.687 sec/step)
+INFO:tensorflow:global step 953: loss = 2.6270 (7.687 sec/step)
+INFO:tensorflow:global step 954: loss = 2.9267 (7.553 sec/step)
+INFO:tensorflow:global step 954: loss = 2.9267 (7.553 sec/step)
+INFO:tensorflow:global step 955: loss = 2.9608 (7.573 sec/step)
+INFO:tensorflow:global step 955: loss = 2.9608 (7.573 sec/step)
+INFO:tensorflow:global step 956: loss = 2.7196 (7.864 sec/step)
+INFO:tensorflow:global step 956: loss = 2.7196 (7.864 sec/step)
+INFO:tensorflow:global step 957: loss = 3.1582 (7.559 sec/step)
+INFO:tensorflow:global step 957: loss = 3.1582 (7.559 sec/step)
+INFO:tensorflow:global step 958: loss = 3.3507 (7.711 sec/step)
+INFO:tensorflow:global step 958: loss = 3.3507 (7.711 sec/step)
+INFO:tensorflow:global step 959: loss = 2.6681 (7.552 sec/step)
+INFO:tensorflow:global step 959: loss = 2.6681 (7.552 sec/step)
+INFO:tensorflow:global step 960: loss = 3.7053 (7.784 sec/step)
+INFO:tensorflow:global step 960: loss = 3.7053 (7.784 sec/step)
+INFO:tensorflow:global step 961: loss = 3.4381 (7.885 sec/step)
+INFO:tensorflow:global step 961: loss = 3.4381 (7.885 sec/step)
+INFO:tensorflow:global step 962: loss = 3.0926 (7.824 sec/step)
+INFO:tensorflow:global step 962: loss = 3.0926 (7.824 sec/step)
+INFO:tensorflow:global step 963: loss = 2.8800 (7.507 sec/step)
+INFO:tensorflow:global step 963: loss = 2.8800 (7.507 sec/step)
+INFO:tensorflow:global step 964: loss = 2.7353 (7.698 sec/step)
+INFO:tensorflow:global step 964: loss = 2.7353 (7.698 sec/step)
+INFO:tensorflow:global step 965: loss = 2.5662 (7.570 sec/step)
+INFO:tensorflow:global step 965: loss = 2.5662 (7.570 sec/step)
+INFO:tensorflow:Recording summary at step 965.
+INFO:tensorflow:Recording summary at step 965.
+INFO:tensorflow:global step 966: loss = 3.4109 (9.060 sec/step)
+INFO:tensorflow:global step 966: loss = 3.4109 (9.060 sec/step)
+INFO:tensorflow:global step 967: loss = 2.2305 (7.621 sec/step)
+INFO:tensorflow:global step 967: loss = 2.2305 (7.621 sec/step)
+INFO:tensorflow:global step 968: loss = 2.7686 (7.721 sec/step)
+INFO:tensorflow:global step 968: loss = 2.7686 (7.721 sec/step)
+INFO:tensorflow:global step 969: loss = 2.3264 (7.560 sec/step)
+INFO:tensorflow:global step 969: loss = 2.3264 (7.560 sec/step)
+INFO:tensorflow:global step 970: loss = 2.5881 (7.760 sec/step)
+INFO:tensorflow:global step 970: loss = 2.5881 (7.760 sec/step)
+INFO:tensorflow:global step 971: loss = 2.6730 (7.729 sec/step)
+INFO:tensorflow:global step 971: loss = 2.6730 (7.729 sec/step)
+INFO:tensorflow:global step 972: loss = 2.7191 (7.636 sec/step)
+INFO:tensorflow:global step 972: loss = 2.7191 (7.636 sec/step)
+INFO:tensorflow:global step 973: loss = 3.5937 (7.612 sec/step)
+INFO:tensorflow:global step 973: loss = 3.5937 (7.612 sec/step)
+INFO:tensorflow:global step 974: loss = 3.0627 (8.043 sec/step)
+INFO:tensorflow:global step 974: loss = 3.0627 (8.043 sec/step)
+INFO:tensorflow:global step 975: loss = 3.4059 (7.796 sec/step)
+INFO:tensorflow:global step 975: loss = 3.4059 (7.796 sec/step)
+INFO:tensorflow:global step 976: loss = 2.7260 (7.732 sec/step)
+INFO:tensorflow:global step 976: loss = 2.7260 (7.732 sec/step)
+INFO:tensorflow:global step 977: loss = 3.7045 (7.686 sec/step)
+INFO:tensorflow:global step 977: loss = 3.7045 (7.686 sec/step)
+INFO:tensorflow:global step 978: loss = 3.7136 (7.910 sec/step)
+INFO:tensorflow:global step 978: loss = 3.7136 (7.910 sec/step)
+INFO:tensorflow:global step 979: loss = 3.9370 (7.631 sec/step)
+INFO:tensorflow:global step 979: loss = 3.9370 (7.631 sec/step)
+INFO:tensorflow:global step 980: loss = 3.1867 (7.555 sec/step)
+INFO:tensorflow:global step 980: loss = 3.1867 (7.555 sec/step)
+INFO:tensorflow:Recording summary at step 980.
+INFO:tensorflow:Recording summary at step 980.
+INFO:tensorflow:global step 981: loss = 2.3305 (8.883 sec/step)
+INFO:tensorflow:global step 981: loss = 2.3305 (8.883 sec/step)
+INFO:tensorflow:global step 982: loss = 3.9491 (7.746 sec/step)
+INFO:tensorflow:global step 982: loss = 3.9491 (7.746 sec/step)
+INFO:tensorflow:global step 983: loss = 2.6551 (7.843 sec/step)
+INFO:tensorflow:global step 983: loss = 2.6551 (7.843 sec/step)
+INFO:tensorflow:global step 984: loss = 3.6899 (7.612 sec/step)
+INFO:tensorflow:global step 984: loss = 3.6899 (7.612 sec/step)
+INFO:tensorflow:global step 985: loss = 3.3989 (7.735 sec/step)
+INFO:tensorflow:global step 985: loss = 3.3989 (7.735 sec/step)
+INFO:tensorflow:global step 986: loss = 3.3636 (7.933 sec/step)
+INFO:tensorflow:global step 986: loss = 3.3636 (7.933 sec/step)
+INFO:tensorflow:global step 987: loss = 3.0161 (7.697 sec/step)
+INFO:tensorflow:global step 987: loss = 3.0161 (7.697 sec/step)
+INFO:tensorflow:global step 988: loss = 3.0873 (7.752 sec/step)
+INFO:tensorflow:global step 988: loss = 3.0873 (7.752 sec/step)
+INFO:tensorflow:global step 989: loss = 3.4388 (7.920 sec/step)
+INFO:tensorflow:global step 989: loss = 3.4388 (7.920 sec/step)
+INFO:tensorflow:global step 990: loss = 3.3697 (7.762 sec/step)
+INFO:tensorflow:global step 990: loss = 3.3697 (7.762 sec/step)
+INFO:tensorflow:global step 991: loss = 2.3258 (7.717 sec/step)
+INFO:tensorflow:global step 991: loss = 2.3258 (7.717 sec/step)
+INFO:tensorflow:global step 992: loss = 3.8672 (7.622 sec/step)
+INFO:tensorflow:global step 992: loss = 3.8672 (7.622 sec/step)
+INFO:tensorflow:global step 993: loss = 2.3985 (7.581 sec/step)
+INFO:tensorflow:global step 993: loss = 2.3985 (7.581 sec/step)
+INFO:tensorflow:global step 994: loss = 2.7301 (7.543 sec/step)
+INFO:tensorflow:global step 994: loss = 2.7301 (7.543 sec/step)
+INFO:tensorflow:global step 995: loss = 3.2674 (7.710 sec/step)
+INFO:tensorflow:global step 995: loss = 3.2674 (7.710 sec/step)
+INFO:tensorflow:global step 996: loss = 3.0749 (7.785 sec/step)
+INFO:tensorflow:global step 996: loss = 3.0749 (7.785 sec/step)
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Saving checkpoint to path ./models/train/model.ckpt
+INFO:tensorflow:Recording summary at step 996.
+INFO:tensorflow:Recording summary at step 996.
+INFO:tensorflow:global step 997: loss = 2.6340 (9.481 sec/step)
+INFO:tensorflow:global step 997: loss = 2.6340 (9.481 sec/step)
+INFO:tensorflow:global step 998: loss = 2.9846 (7.609 sec/step)
+INFO:tensorflow:global step 998: loss = 2.9846 (7.609 sec/step)
+INFO:tensorflow:global step 999: loss = 3.0259 (7.673 sec/step)
+INFO:tensorflow:global step 999: loss = 3.0259 (7.673 sec/step)
+INFO:tensorflow:global step 1000: loss = 3.9440 (7.589 sec/step)
+INFO:tensorflow:global step 1000: loss = 3.9440 (7.589 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+INFO:tensorflow:Finished training! Saving model to disk.
